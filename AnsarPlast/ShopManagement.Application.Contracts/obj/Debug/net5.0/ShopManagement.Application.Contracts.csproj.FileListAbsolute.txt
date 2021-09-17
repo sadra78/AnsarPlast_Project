@@ -1,0 +1,15 @@
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.AssemblyReference.cache
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.deps.json
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\bin\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.pdb
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CopyComplete
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\obj\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.pdb
