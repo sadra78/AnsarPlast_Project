@@ -21,7 +21,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Shop.ProductCategories
 
         public void OnGet(ProductCategorySearchModel searchModel)
         {
-            ProductCategories=_productCategoryApplication.Search(searchModel);
+            ProductCategories = _productCategoryApplication.Search(searchModel);
         }
 
 
@@ -34,6 +34,18 @@ namespace ServiceHost.Areas.Admininstration.Pages.Shop.ProductCategories
         public JsonResult OnPostCreate(CreateProductCategory command)
         {
             var result = _productCategoryApplication.Create(command);
+            return new JsonResult(result);
+        }
+
+        public IActionResult OnGetEdit(long id)
+        {
+            var productCategory = _productCategoryApplication.GetDetails(id);
+            return Partial("Edit", productCategory);
+        }
+
+        public JsonResult OnPostEdit(EditProductCategory command)
+        {
+            var result = _productCategoryApplication.Edit(command);
             return new JsonResult(result);
         }
     }
