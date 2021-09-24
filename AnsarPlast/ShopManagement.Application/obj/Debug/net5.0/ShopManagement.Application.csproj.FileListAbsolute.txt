@@ -1,3 +1,7 @@
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfoInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfo.cs
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.CoreCompileInputs.cache
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Application.deps.json
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Application.dll
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\bin\Debug\net5.0\ref\ShopManagement.Application.dll
@@ -9,10 +13,6 @@ E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\bin\Debug\net5.0\ShopMa
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Domain.pdb
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\bin\Debug\net5.0\0_Framework.pdb
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.AssemblyReference.cache
-E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
-E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfoInputs.cache
-E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfo.cs
-E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.CoreCompileInputs.cache
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.CopyComplete
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.dll
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Application\obj\Debug\net5.0\ref\ShopManagement.Application.dll

@@ -1,3 +1,7 @@
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfoInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfo.cs
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.deps.json
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.dll
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\bin\Debug\net5.0\ref\ShopManagement.Domain.dll
@@ -7,10 +11,6 @@ E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\bin\Debug\net5.0\ShopManagem
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.AssemblyReference.cache
-E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
-E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfoInputs.cache
-E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfo.cs
-E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CopyComplete
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll

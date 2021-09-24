@@ -2,7 +2,6 @@ E:\AnsarPlast\Code\AnsarPlast\0_Framework\bin\Debug\net5.0\0_Framework.deps.json
 E:\AnsarPlast\Code\AnsarPlast\0_Framework\bin\Debug\net5.0\0_Framework.dll
 E:\AnsarPlast\Code\AnsarPlast\0_Framework\bin\Debug\net5.0\ref\0_Framework.dll
 E:\AnsarPlast\Code\AnsarPlast\0_Framework\bin\Debug\net5.0\0_Framework.pdb
-E:\AnsarPlast\Code\AnsarPlast\0_Framework\obj\Debug\net5.0\0_Framework.csproj.AssemblyReference.cache
 E:\AnsarPlast\Code\AnsarPlast\0_Framework\obj\Debug\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
 E:\AnsarPlast\Code\AnsarPlast\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfoInputs.cache
 E:\AnsarPlast\Code\AnsarPlast\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfo.cs
@@ -10,3 +9,4 @@ E:\AnsarPlast\Code\AnsarPlast\0_Framework\obj\Debug\net5.0\0_Framework.csproj.Co
 E:\AnsarPlast\Code\AnsarPlast\0_Framework\obj\Debug\net5.0\0_Framework.dll
 E:\AnsarPlast\Code\AnsarPlast\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
 E:\AnsarPlast\Code\AnsarPlast\0_Framework\obj\Debug\net5.0\0_Framework.pdb
+E:\AnsarPlast\Code\AnsarPlast\0_Framework\obj\Debug\net5.0\0_Framework.csproj.AssemblyReference.cache
