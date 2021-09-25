@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using _0_Framework.Application;
 using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.SlideAgg;
@@ -23,7 +18,7 @@ namespace ShopManagement.Application
         {
             var operation = new OperationResult();
             var slide = new Slide(command.Picture, command.PictureAlt, command.PictureTitle, command.Heading,
-                command.BtnText, command.Text, command.Title);
+                command.Title, command.Text, command.BtnText,command.Link);
             _slideRepository.Create(slide);
             _slideRepository.SaveChanges();
             return operation.Succedded();
@@ -38,7 +33,7 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessages.RecordNotFound);
             }
             slide.Edit(command.Picture, command.PictureAlt, command.PictureTitle, command.Heading,
-                command.BtnText, command.Text, command.Title);
+                command.Title, command.Text, command.BtnText,command.Link);
             _slideRepository.SaveChanges();
             return operation.Succedded();
         }

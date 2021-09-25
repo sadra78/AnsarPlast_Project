@@ -21,3 +21,5 @@ E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Configuration\obj\Debug\net5.0\Shop
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Configuration\bin\Debug\net5.0\01_AnsarPlastQuery.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Configuration\bin\Debug\net5.0\01_AnsarPlastQuery.pdb

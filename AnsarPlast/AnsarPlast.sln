@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Configuratio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{7F885A59-155A-4B5A-824C-F8820358BAA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_AnsarPlastQuery", "01_AnsarPlastQuery\01_AnsarPlastQuery.csproj", "{E5F88B17-2DC3-4BCE-844C-81BDA0C64CD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{7F885A59-155A-4B5A-824C-F8820358BAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F885A59-155A-4B5A-824C-F8820358BAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F885A59-155A-4B5A-824C-F8820358BAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F88B17-2DC3-4BCE-844C-81BDA0C64CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F88B17-2DC3-4BCE-844C-81BDA0C64CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F88B17-2DC3-4BCE-844C-81BDA0C64CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F88B17-2DC3-4BCE-844C-81BDA0C64CD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

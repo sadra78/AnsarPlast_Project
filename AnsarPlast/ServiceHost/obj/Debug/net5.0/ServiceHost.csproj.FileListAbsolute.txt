@@ -174,3 +174,6 @@ E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininst
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Shop\Slides\Create.cshtml.g.cs
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Shop\Slides\Edit.cshtml.g.cs
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Shop\Slides\Index.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\01_AnsarPlastQuery.dll
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\01_AnsarPlastQuery.pdb
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Slide\Default.cshtml.g.cs
