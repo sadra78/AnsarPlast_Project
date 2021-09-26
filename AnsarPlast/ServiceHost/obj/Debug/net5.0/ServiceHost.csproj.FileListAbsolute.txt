@@ -191,3 +191,6 @@ E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\ServiceHost.dll
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Discounts\ColleagueDiscounts\Create.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Discounts\ColleagueDiscounts\Edit.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Discounts\ColleagueDiscounts\Index.cshtml.g.cs

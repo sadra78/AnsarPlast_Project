@@ -46,7 +46,7 @@ namespace DiscountManagement.Application
             {
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
             }
-            colleagueDiscount.Edit(command.Id,command.DiscountRate);
+            colleagueDiscount.Edit(command.ProductId,command.DiscountRate);
             _colleagueDiscountRepository.SaveChanges();
             return operation.Succedded();
         }
