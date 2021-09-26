@@ -1,0 +1,17 @@
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.deps.json
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\bin\Debug\net5.0\ref\DiscountManagement.Application.Contract.dll
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_Framework.dll
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_Framework.pdb
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.AssemblyReference.cache
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfoInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfo.cs
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CoreCompileInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CopyComplete
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.dll
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\obj\Debug\net5.0\ref\DiscountManagement.Application.Contract.dll
+E:\AnsarPlast\Code\AnsarPlast\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.pdb
