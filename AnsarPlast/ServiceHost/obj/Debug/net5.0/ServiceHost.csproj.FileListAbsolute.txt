@@ -194,3 +194,11 @@ E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntim
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Discounts\ColleagueDiscounts\Create.cshtml.g.cs
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Discounts\ColleagueDiscounts\Edit.cshtml.g.cs
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Discounts\ColleagueDiscounts\Index.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
