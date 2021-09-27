@@ -202,3 +202,11 @@ E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.I
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Inventory\Create.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Inventory\Edit.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Inventory\Index.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Inventory\Increase.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Inventory\Reduce.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Inventory\OperationLog.cshtml.g.cs

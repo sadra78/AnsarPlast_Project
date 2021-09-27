@@ -16,7 +16,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Shop.Products
         private readonly IProductApplication _productApplication;
         private readonly IProductCategoryApplication _productCategoryApplication;
 
-        public IndexModel(IProductApplication productApplication,IProductCategoryApplication productCategoryApplication)
+        public IndexModel(IProductApplication productApplication, IProductCategoryApplication productCategoryApplication)
         {
             _productApplication = productApplication;
             _productCategoryApplication = productCategoryApplication;
@@ -24,7 +24,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Shop.Products
 
         public void OnGet(ProductSearchModel searchModel)
         {
-            ProductCategories = new SelectList(_productCategoryApplication.getProductCategories(),"Id","Name");
+            ProductCategories = new SelectList(_productCategoryApplication.getProductCategories(), "Id", "Name");
             Products = _productApplication.Search(searchModel);
         }
 
@@ -35,7 +35,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Shop.Products
             {
                 Categories = _productCategoryApplication.getProductCategories()
             };
-            return Partial("./Create",command);
+            return Partial("./Create", command);
 
         }
 
@@ -56,30 +56,6 @@ namespace ServiceHost.Areas.Admininstration.Pages.Shop.Products
         {
             var result = _productApplication.Edit(command);
             return new JsonResult(result);
-        }
-
-        public IActionResult OnGetNotInStock(long id)
-        {
-            var result = _productApplication.NotIsStock(id);
-            if (result.IsSuccedded)
-            {
-                return RedirectToPage("./Index");
-            }
-
-            message = result.Message;
-            return RedirectToPage("./Index");
-        }
-
-        public IActionResult OnGetInStock(long id)
-        {
-            var result = _productApplication.IsStock(id);
-            if (result.IsSuccedded)
-            {
-                return RedirectToPage("./Index");
-            }
-
-            message = result.Message;
-            return RedirectToPage("./Index");
         }
     }
 }

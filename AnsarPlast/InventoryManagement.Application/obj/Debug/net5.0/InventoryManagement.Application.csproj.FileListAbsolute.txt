@@ -17,3 +17,5 @@ E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\obj\Debug\net5.0\I
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\obj\Debug\net5.0\ref\InventoryManagement.Application.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb

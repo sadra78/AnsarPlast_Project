@@ -502,6 +502,73 @@
             "projectReferences": {
               "E:\\AnsarPlast\\Code\\AnsarPlast\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\0_Framework\\0_Framework.csproj"
+              },
+              "E:\\AnsarPlast\\Code\\AnsarPlast\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\AnsarPlast\\Code\\AnsarPlast\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\AnsarPlast\\Code\\AnsarPlast\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
+        "projectName": "InventoryManagement.Application",
+        "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Mr.Sadra\\.nuget\\packages\\",
+        "outputPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\InventoryManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mr.Sadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\AnsarPlast\\Code\\AnsarPlast\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
+              },
+              "E:\\AnsarPlast\\Code\\AnsarPlast\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+                "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
               }
             }
           }
@@ -625,6 +692,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "E:\\AnsarPlast\\Code\\AnsarPlast\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
+                "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
+              },
               "E:\\AnsarPlast\\Code\\AnsarPlast\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
                 "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
               },

@@ -96,6 +96,9 @@
             "projectReferences": {
               "E:\\AnsarPlast\\Code\\AnsarPlast\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\0_Framework\\0_Framework.csproj"
+              },
+              "E:\\AnsarPlast\\Code\\AnsarPlast\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }

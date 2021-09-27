@@ -13,8 +13,6 @@ namespace ShopManagement.Domain.ProductAgg
     {
         public string Name { get; private set; }
         public string Code { get; private set; }
-        public double Unitprice { get; private set; }
-        public bool IsInStock { get; private set; }
         public string ShortDescription { get; private set; }
         public string Description { get; private set; }
         public string Picture { get; private set; }
@@ -30,7 +28,7 @@ namespace ShopManagement.Domain.ProductAgg
 
 
         public Product(string name, string code,
-            double unitprice, string shortDescription,
+             string shortDescription,
             string description, string picture,
             string pictureAlt, string pictureTitle,
             long categoryId, string keyword,
@@ -38,7 +36,6 @@ namespace ShopManagement.Domain.ProductAgg
         {
             Name = name;
             Code = code;
-            Unitprice = unitprice;
             ShortDescription = shortDescription;
             Description = description;
             Picture = picture;
@@ -48,12 +45,11 @@ namespace ShopManagement.Domain.ProductAgg
             Keyword = keyword;
             MetaDescription = metaDescription;
             Slug = slug;
-            IsInStock = true;
         }
 
 
         public void Edit(string name, string code,
-            double unitprice, string shortDescription,
+             string shortDescription,
             string description, string picture,
             string pictureAlt, string pictureTitle,
             long categoryId, string keyword,
@@ -61,7 +57,6 @@ namespace ShopManagement.Domain.ProductAgg
         {
             Name = name;
             Code = code;
-            Unitprice = unitprice;
             ShortDescription = shortDescription;
             Description = description;
             Picture = picture;
@@ -71,15 +66,6 @@ namespace ShopManagement.Domain.ProductAgg
             Keyword = keyword;
             MetaDescription = metaDescription;
             Slug = slug;
-        }
-
-        public void InStock()
-        {
-            this.IsInStock = true;
-        }
-        public void NotInStock()
-        {
-            this.IsInStock = false;
         }
     }
 }

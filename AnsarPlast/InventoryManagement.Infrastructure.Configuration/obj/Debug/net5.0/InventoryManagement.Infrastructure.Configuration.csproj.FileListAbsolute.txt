@@ -25,3 +25,5 @@ E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Infrastructure.Configuration\o
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.Configuration.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.pdb
