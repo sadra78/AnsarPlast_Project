@@ -4,6 +4,8 @@ namespace _01_AnsarPlastQuery.Contracts.ProductCategory
 {
     public interface IProductCategoryQuery
     {
-        List<ProductCategoryQueryModel> getProductCategories();
+        ProductCategoryQueryModel GetProductCategoryWithProductsBy(string slug);
+        List<ProductCategoryQueryModel> GetProductCategories();
+        List<ProductCategoryQueryModel> GetProductCategoriesWirhProducts();
     }
 }

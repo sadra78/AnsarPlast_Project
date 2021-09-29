@@ -18,7 +18,7 @@ namespace ServiceHost.ViewComponents
 
         public IViewComponentResult Invoke()
         {
-            var productCategories = _productCategoryQuery.getProductCategories();
+            var productCategories = _productCategoryQuery.GetProductCategories();
             return View(productCategories);
         }
     }

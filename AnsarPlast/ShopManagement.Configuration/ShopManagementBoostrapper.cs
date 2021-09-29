@@ -1,4 +1,5 @@
 ﻿
+using _01_AnsarPlastQuery.Contracts.Product;
 using _01_AnsarPlastQuery.Contracts.ProductCategory;
 using _01_AnsarPlastQuery.Contracts.Slide;
 using _01_AnsarPlastQuery.Query;
@@ -36,6 +37,7 @@ namespace ShopManagement.Configuration
 
             services.AddTransient<ISlideQuery, SlideQuery>();
             services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
+            services.AddTransient<IProductQuery, ProductQuery>();
             
             services.AddDbContext<ShopContext>(x=>x.UseSqlServer(connectionString));
         }

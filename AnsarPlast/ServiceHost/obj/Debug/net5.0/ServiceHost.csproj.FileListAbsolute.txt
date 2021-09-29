@@ -210,3 +210,6 @@ E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\InventoryManagement.A
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Inventory\Increase.cshtml.g.cs
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Inventory\Reduce.cshtml.g.cs
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Inventory\OperationLog.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategoryWithProduct\Default.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatesProduct\Default.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\ProductCategory.cshtml.g.cs
