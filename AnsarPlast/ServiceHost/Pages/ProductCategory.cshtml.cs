@@ -1,7 +1,7 @@
 using _01_AnsarPlastQuery.Contracts.ProductCategory;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ServiceHost.Pages.Shared
+namespace ServiceHost.Pages
 {
     public class ProductCategoryModel : PageModel
     {

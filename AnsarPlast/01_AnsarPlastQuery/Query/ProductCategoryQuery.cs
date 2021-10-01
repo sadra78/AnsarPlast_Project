@@ -52,7 +52,7 @@ namespace _01_AnsarPlastQuery.Query
                     Keyword = x.Keyword,
                     Slug = x.Slug,
                     Products = MapProducts(x.Products),
-                }).FirstOrDefault(x => x.Slug == slug);
+                }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
             foreach (var product in category.Products)
             {
@@ -88,7 +88,7 @@ namespace _01_AnsarPlastQuery.Query
                 PictureTitle = x.PictureTitle,
                 PictureAlt = x.PictureAlt,
                 Slug = x.Slug,
-            }).ToList();
+            }).AsNoTracking().ToList();
         }
 
         public List<ProductCategoryQueryModel> GetProductCategoriesWirhProducts()
@@ -114,7 +114,7 @@ namespace _01_AnsarPlastQuery.Query
                     Id = x.Id,
                     Name = x.Name.Trim(),
                     Products = MapProducts(x.Products),
-                }).ToList();
+                }).AsNoTracking().ToList();
 
             foreach (var category in categories)
             {

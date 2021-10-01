@@ -19,7 +19,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         public string MetaDescription { get; private set; }
         public string Slug { get; private set; }
 
-        public List<Product> Products { get;private set; }
+        public List<Product> Products { get; private set; }
 
         public ProductCategory()
         {
@@ -42,7 +42,11 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         {
             Name = name;
             Description = description;
-            Picture = picture;
+            if (!string.IsNullOrWhiteSpace(picture))
+            {
+                Picture = picture;
+            }
+
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             Keyword = keyword;
