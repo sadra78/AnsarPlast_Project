@@ -5,9 +5,11 @@ E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\I
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\0_Framework.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\0_Framework.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.AssemblyReference.cache
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfoInputs.cache
@@ -17,5 +19,3 @@ E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\obj\Debug\net5.0\I
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\obj\Debug\net5.0\ref\InventoryManagement.Application.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.pdb
-E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
-E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb

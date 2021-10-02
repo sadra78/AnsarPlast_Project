@@ -1,7 +1,10 @@
-﻿namespace _01_AnsarPlastQuery.Contracts.Product
+﻿using System.Collections.Generic;
+
+namespace _01_AnsarPlastQuery.Contracts.Product
 {
     public class ProductQueryModel
     {
+
         public long Id { get; set; }
         public string ShortDescription { get; set; }
         public string Description { get; set; }
@@ -17,5 +20,21 @@
         public bool HasDiscount { get; set; }
         public string CategorySlug { get; set; }
         public string DiscountExp_Date { get; set; }
+        public string Code { get; set; }
+        public long CategoryId { get; set; }
+        public string Keyword { get; set; }
+        public string MetaDescription { get; set; }
+        public bool IsInStock { get; set; }
+        public List<ProductPictureQueryModel> Pictures { get; set; }
+    }
+
+    public class ProductPictureQueryModel
+    {
+        public long ProductId { get; set; }
+        public string Picture { get; set; }
+        public string PictureAlt { get; set; }
+        public string PictureTitle { get; set; }
+        public bool IsRemoved { get; set; }
+        public Product Product { get; set; }
     }
 }

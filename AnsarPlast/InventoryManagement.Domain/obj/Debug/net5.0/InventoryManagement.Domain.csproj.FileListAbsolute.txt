@@ -4,8 +4,10 @@ E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\bin\Debug\net5.0\ref\In
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\bin\Debug\net5.0\0_Framework.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.csproj.AssemblyReference.cache
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.AssemblyInfoInputs.cache
@@ -15,5 +17,3 @@ E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\obj\Debug\net5.0\Invent
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\obj\Debug\net5.0\ref\InventoryManagement.Domain.dll
 E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.pdb
-E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
-E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
