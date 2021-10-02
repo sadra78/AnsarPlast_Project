@@ -8,6 +8,7 @@ using _01_AnsarPlastQuery.Contracts.ProductCategory;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
@@ -43,10 +44,10 @@ namespace _01_AnsarPlastQuery.Query
                     x.ProductId,
                     x.EndDate
                 }).ToList();
-
             var product = _context.Products
                 .Include(x => x.Category)
                 .Include(x => x.ProductPictures)
+                .Include(x => x.Comments)
                 .Select(product => new ProductQueryModel
                 {
                     Id = product.Id,
@@ -62,6 +63,7 @@ namespace _01_AnsarPlastQuery.Query
                     Keyword = product.Keyword,
                     MetaDescription = product.MetaDescription,
                     ShortDescription = product.ShortDescription,
+                    Comments = MapComments(product.Comments),
                     Pictures = MapProductPictures(product.ProductPictures)
                 }).FirstOrDefault(x => x.Slug == slug);
 
@@ -88,6 +90,16 @@ namespace _01_AnsarPlastQuery.Query
 
             }
             return product;
+        }
+
+        private static List<CommentQueryModel> MapComments(List<Comment> productComments)
+        {
+            return productComments.Where(x => !x.IsCanceld && x.IsConfirmed).Select(x => new CommentQueryModel
+            {
+                Id = x.Id,
+                Message = x.Message,
+                Name = x.Name
+            }).OrderByDescending(x=>x.Id).ToList();
         }
 
         private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> pictures)

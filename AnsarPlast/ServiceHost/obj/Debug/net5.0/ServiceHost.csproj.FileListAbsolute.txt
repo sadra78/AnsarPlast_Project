@@ -221,3 +221,4 @@ E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\ShopManagement.Infras
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\ServiceHost.Views.pdb
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\ServiceHost.csproj.CopyComplete
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Shop\Comments\Index.cshtml.g.cs

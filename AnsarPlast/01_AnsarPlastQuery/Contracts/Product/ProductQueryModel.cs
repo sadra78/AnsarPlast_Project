@@ -25,16 +25,15 @@ namespace _01_AnsarPlastQuery.Contracts.Product
         public string Keyword { get; set; }
         public string MetaDescription { get; set; }
         public bool IsInStock { get; set; }
+        public List<CommentQueryModel> Comments { get; set; }
         public List<ProductPictureQueryModel> Pictures { get; set; }
     }
 
-    public class ProductPictureQueryModel
+    public class CommentQueryModel
     {
-        public long ProductId { get; set; }
-        public string Picture { get; set; }
-        public string PictureAlt { get; set; }
-        public string PictureTitle { get; set; }
-        public bool IsRemoved { get; set; }
-        public Product Product { get; set; }
+        public long Id { get; set; }
+        public string Name { get; set; }
+        public string Message { get; set; }
+
     }
 }
