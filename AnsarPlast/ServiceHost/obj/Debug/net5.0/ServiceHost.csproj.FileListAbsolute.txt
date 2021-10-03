@@ -235,3 +235,6 @@ E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\BlogManagement.Infras
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Blog\ArticleCategories\Create.cshtml.g.cs
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Blog\ArticleCategories\Edit.cshtml.g.cs
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Blog\ArticleCategories\Index.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Blog\Articles\Create.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Blog\Articles\Edit.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Blog\Articles\Index.cshtml.g.cs
