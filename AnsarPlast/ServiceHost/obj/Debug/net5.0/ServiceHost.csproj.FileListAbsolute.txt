@@ -222,3 +222,16 @@ E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\ServiceHost.Views.pdb
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\ServiceHost.csproj.CopyComplete
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
 E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Shop\Comments\Index.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.Contract.dll
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.dll
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\BlogManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.Configuration.dll
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.Configuration.pdb
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.pdb
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.Contract.pdb
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\BlogManagement.Domain.pdb
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Blog\ArticleCategories\Create.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Blog\ArticleCategories\Edit.cshtml.g.cs
+E:\AnsarPlast\Code\AnsarPlast\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admininstration\Pages\Blog\ArticleCategories\Index.cshtml.g.cs

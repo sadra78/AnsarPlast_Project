@@ -1,0 +1,17 @@
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Domain.deps.json
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\bin\Debug\net5.0\ref\BlogManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Domain.pdb
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Application.Contract.dll
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Application.Contract.pdb
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csproj.AssemblyReference.cache
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.AssemblyInfoInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.AssemblyInfo.cs
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csproj.CoreCompileInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csproj.CopyComplete
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\obj\Debug\net5.0\ref\BlogManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.pdb
