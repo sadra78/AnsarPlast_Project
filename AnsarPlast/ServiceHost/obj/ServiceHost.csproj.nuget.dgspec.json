@@ -31,6 +31,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "E:\\AnsarPlast\\Code\\AnsarPlast\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
+              },
               "E:\\AnsarPlast\\Code\\AnsarPlast\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               },
@@ -364,6 +367,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "E:\\AnsarPlast\\Code\\AnsarPlast\\01_AnsarPlastQuery\\01_AnsarPlastQuery.csproj": {
+                "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\01_AnsarPlastQuery\\01_AnsarPlastQuery.csproj"
+              },
               "E:\\AnsarPlast\\Code\\AnsarPlast\\BlogManagement.Application\\BlogManagement.Application.csproj": {
                 "projectPath": "E:\\AnsarPlast\\Code\\AnsarPlast\\BlogManagement.Application\\BlogManagement.Application.csproj"
               },

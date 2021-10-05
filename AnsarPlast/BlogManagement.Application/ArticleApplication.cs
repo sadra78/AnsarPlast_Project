@@ -30,15 +30,15 @@ namespace BlogManagement.Application
             if (_articleRepository.Exists(x => x.Title == command.Title))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
-            var categorySlug = _articleCategoryRepository.GetSlugBy(command.CategoryId);
             var slug = command.Slug.Slugify();
+            var categorySlug = _articleCategoryRepository.GetSlugBy(command.CategoryId);
             var path = $"{categorySlug}/{slug}";
             var pictureName = _fileUploader.Upload(command.Picture, path);
 
             var publishDate = command.PublishDate.ToGeorgianDateTime();
 
-            var article = new Article(command.Title, command.ShortDescription,
-                command.Description, pictureName, command.PictureAlt,
+            var article = new Article(command.Title, command.Description,
+                command.ShortDescription, pictureName, command.PictureAlt,
                 command.PictureTitle, publishDate, slug, command.Keywords,
                 command.MetaDescription, command.CanonicalAddress, command.CategoryId);
 
@@ -62,8 +62,8 @@ namespace BlogManagement.Application
             var pictureName = _fileUploader.Upload(command.Picture, path);
             var publishDate = command.PublishDate.ToGeorgianDateTime();
 
-            article.Edit(command.Title, command.ShortDescription,
-                command.Description, pictureName, command.PictureAlt,
+            article.Edit(command.Title, command.Description,
+                command.ShortDescription, pictureName, command.PictureAlt,
                 command.PictureTitle, publishDate, slug, command.Keywords,
                 command.MetaDescription, command.CanonicalAddress, command.CategoryId);
 
