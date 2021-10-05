@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _01_AnsarPlastQuery.Contracts.Comment;
+using _01_AnsarPlastQuery.Contracts.Product;
 
 namespace _01_AnsarPlastQuery.Contracts.Article
 {
     public class ArticleQueryModel
     {
+        public long Id { get; set; }
         public string Title { get;  set; }
         public string Description { get;  set; }
         public string ShortDescription { get;  set; }
@@ -23,5 +26,6 @@ namespace _01_AnsarPlastQuery.Contracts.Article
         public long CategoryId { get;  set; }
         public string CategoryName { get; set; }
         public string CategorySlug { get; set; }
+        public List<CommentQueryModel> Comments { get; set; }
     }
 }

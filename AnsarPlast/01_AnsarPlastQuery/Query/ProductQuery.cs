@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using _0_Framework.Application;
+using _01_AnsarPlastQuery.Contracts.Comment;
 using _01_AnsarPlastQuery.Contracts.Product;
-using _01_AnsarPlastQuery.Contracts.ProductCategory;
+using CommentManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.CommentAgg;
-using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 
@@ -20,15 +18,17 @@ namespace _01_AnsarPlastQuery.Query
         private readonly ShopContext _context;
         private readonly InventoryContext _inventoryContext;
         private readonly DiscountContext _discountContext;
+        private readonly CommentContext _commentContext;
 
-        public ProductQuery(ShopContext context, InventoryContext inventoryContext, DiscountContext discountContext)
+        public ProductQuery(ShopContext context, InventoryContext inventoryContext, DiscountContext discountContext, CommentContext commentContext)
         {
             _context = context;
             _inventoryContext = inventoryContext;
             _discountContext = discountContext;
+            _commentContext = commentContext;
         }
 
-        public ProductQueryModel GetDetailsBy(string slug)
+        public ProductQueryModel GetProductDetailsBy(string slug)
         {
             var inventory = _inventoryContext.Inventory.Select(x => new
             {
@@ -36,6 +36,7 @@ namespace _01_AnsarPlastQuery.Query
                 x.UnitPrice,
                 x.InStock
             }).ToList();
+
             var discounts = _discountContext.CustomerDiscounts
                 .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
                 .Select(x => new
@@ -47,7 +48,6 @@ namespace _01_AnsarPlastQuery.Query
             var product = _context.Products
                 .Include(x => x.Category)
                 .Include(x => x.ProductPictures)
-                .Include(x => x.Comments)
                 .Select(product => new ProductQueryModel
                 {
                     Id = product.Id,
@@ -63,7 +63,6 @@ namespace _01_AnsarPlastQuery.Query
                     Keyword = product.Keyword,
                     MetaDescription = product.MetaDescription,
                     ShortDescription = product.ShortDescription,
-                    Comments = MapComments(product.Comments),
                     Pictures = MapProductPictures(product.ProductPictures)
                 }).FirstOrDefault(x => x.Slug == slug);
 
@@ -89,17 +88,21 @@ namespace _01_AnsarPlastQuery.Query
                 }
 
             }
-            return product;
-        }
 
-        private static List<CommentQueryModel> MapComments(List<Comment> productComments)
-        {
-            return productComments.Where(x => !x.IsCanceld && x.IsConfirmed).Select(x => new CommentQueryModel
-            {
-                Id = x.Id,
-                Message = x.Message,
-                Name = x.Name
-            }).OrderByDescending(x=>x.Id).ToList();
+            product.Comments = _commentContext.Comments
+                .Where(x => x.Type == CommentsType.Product) 
+                .Where(x => x.OwnerRecordId == product.Id)
+                .Where(x => !x.IsCanceld && x.IsConfirmed)
+                .Select(x => new CommentQueryModel
+                {
+                    Id = x.Id,
+                    Message = x.Message,
+                    Name = x.Name,
+                    CreationDate = x.CreationDate.ToFarsi()
+                }).OrderByDescending(x => x.Id)
+                .ToList();
+
+            return product;
         }
 
         private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> pictures)

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using ShopManagement.Domain.ProductAgg;
 
@@ -30,7 +25,6 @@ namespace ShopManagement.Infrastructure.EFCore.Mapping
 
             builder.HasMany(x => x.ProductPictures).WithOne(x => x.Product).HasForeignKey(x => x.ProductId);
 
-            builder.HasMany(x => x.Comments).WithOne(x => x.Product).HasForeignKey(x => x.ProductId);
         }
     }
 }

@@ -1,7 +1,8 @@
 using _01_AnsarPlastQuery.Contracts.Product;
+using CommentManagement.Application.Contracts.Comment;
+using CommentManagement.Infrastructure.EFCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ShopManagement.Application.Contracts.Comment;
 
 namespace ServiceHost.Pages
 {
@@ -19,11 +20,12 @@ namespace ServiceHost.Pages
 
         public void OnGet(string id)
         {
-            Product = _productQuery.GetDetailsBy(id);
+            Product = _productQuery.GetProductDetailsBy(id);
         }
 
         public IActionResult OnPost(AddComment command,string productSlug)
         {
+            command.Type = CommentsType.Product;
             var result = _commentApplication.Add(command);
             return RedirectToPage("./ProductDetails", new { Id = productSlug });
         }

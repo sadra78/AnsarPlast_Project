@@ -1,0 +1,15 @@
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\bin\Debug\net5.0\CommentManagement.Application.Contracts.deps.json
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\bin\Debug\net5.0\ref\CommentManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.dll
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.pdb
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.AssemblyReference.cache
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.AssemblyInfo.cs
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.CopyComplete
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\obj\Debug\net5.0\ref\CommentManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.pdb

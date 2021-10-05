@@ -12,6 +12,7 @@ using System.Text.Unicode;
 using System.Threading.Tasks;
 using _0_Framework.Application;
 using BlogManagement.Infrastructure.Configuration;
+using CommentManagement.Infrastructure.Configuration;
 using DiscountManagement.Configuration;
 using InventoryManagement.Infrastructure.Configuration;
 using ShopManagement.Configuration;
@@ -31,10 +32,11 @@ namespace ServiceHost
         public void ConfigureServices(IServiceCollection services)
         {
             var connectionString = Configuration.GetConnectionString("AnsarPlastDB");
-            ShopManagementBoostrapper.Configure(services,connectionString);
-            DiscountManagementBootstrapper.Configure(services,connectionString);
-            InventoryManagementBootstrapper.Configure(services,connectionString);
-            BlogManagementBootstrapper.Configure(services,connectionString);
+            ShopManagementBoostrapper.Configure(services, connectionString);
+            DiscountManagementBootstrapper.Configure(services, connectionString);
+            InventoryManagementBootstrapper.Configure(services, connectionString);
+            BlogManagementBootstrapper.Configure(services, connectionString);
+            CommentManagementBootstrapper.Configure(services, connectionString);
 
             services.AddSingleton(
                 HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));

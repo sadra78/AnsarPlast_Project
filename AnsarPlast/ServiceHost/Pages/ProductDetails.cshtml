@@ -274,52 +274,6 @@
                                                 <!--=======  review content  =======-->
 
                                                 <div class="product-rating-wrap">
-                                                    <div class="pro-avg-rating">
-                                                        <h4>4.5 <span>(Overall)</span></h4>
-                                                        <span>Based on 9 Comments</span>
-                                                    </div>
-                                                    @*<div class="rating-list">
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <span>(5)</span>
-                                                        </div>
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <span>(3)</span>
-                                                        </div>
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <span>(1)</span>
-                                                        </div>
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <span>(0)</span>
-                                                        </div>
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <span>(0)</span>
-                                                        </div>
-                                                    </div>*@
                                                     @foreach (var comment in Model.Product.Comments)
                                                     {
                                                         <div class="ratings-wrapper">
@@ -352,7 +306,7 @@
                                                                     <textarea name="message" id="message"
                                                                               placeholder="نظر خود را بنویسید"></textarea>
                                                                 </div>
-                                                                <input type="hidden" name="productId" value="@Model.Product.Id" />
+                                                                <input type="hidden" name="ownerRecordId" value="@Model.Product.Id" />
                                                                 <input type="hidden" name="productSlug" value="@Model.Product.Slug" />
                                                                 <div class="col-12">
                                                                     <input value="ارسال" type="submit">

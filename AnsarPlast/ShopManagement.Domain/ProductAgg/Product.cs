@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 
@@ -26,7 +25,6 @@ namespace ShopManagement.Domain.ProductAgg
         public List<ProductPicture> ProductPictures { get; private set; }
 
         public ProductCategory Category { get; set; }
-        public List<Comment> Comments { get; private set; }
 
 
         public Product(string name, string code,

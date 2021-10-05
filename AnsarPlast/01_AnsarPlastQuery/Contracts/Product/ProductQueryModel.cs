@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using _01_AnsarPlastQuery.Contracts.Comment;
 
 namespace _01_AnsarPlastQuery.Contracts.Product
 {
@@ -27,13 +28,5 @@ namespace _01_AnsarPlastQuery.Contracts.Product
         public bool IsInStock { get; set; }
         public List<CommentQueryModel> Comments { get; set; }
         public List<ProductPictureQueryModel> Pictures { get; set; }
-    }
-
-    public class CommentQueryModel
-    {
-        public long Id { get; set; }
-        public string Name { get; set; }
-        public string Message { get; set; }
-
     }
 }

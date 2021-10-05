@@ -8,7 +8,7 @@ namespace _01_AnsarPlastQuery.Contracts.Product
 {
     public interface IProductQuery
     {
-        ProductQueryModel GetDetailsBy(string slug);
+        ProductQueryModel GetProductDetailsBy(string slug);
         List<ProductQueryModel> GetLatesProducts();
         List<ProductQueryModel> Search(string value);
     }
