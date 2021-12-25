@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using _0_Framework.Infrastructure;
 using DiscountManagement.Application.Contract.ColleagueDiscount;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -7,6 +9,7 @@ using ShopManagement.Application.Contracts.Product;
 
 namespace ServiceHost.Areas.Admininstration.Pages.Discounts.ColleagueDiscounts
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         [TempData] public string message { get; set; }
@@ -23,6 +26,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Discounts.ColleagueDiscounts
             _discountApplication = colleagueDiscount;
         }
 
+        [NeedPermission(AdminPermissions.ListColleagueDiscount)]
         public void OnGet(ColleagueDiscountSearchModel searchModel)
         {
             Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
@@ -41,6 +45,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Discounts.ColleagueDiscounts
 
         }
 
+        [NeedPermission(AdminPermissions.DefineColleagueDiscount)]
         public JsonResult OnPostCreate(DefineColleagueDiscount command)
         {
             var result = _discountApplication.Define(command);
@@ -54,6 +59,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Discounts.ColleagueDiscounts
             return Partial("Edit", colleagueDiscount);
         }
 
+        [NeedPermission(AdminPermissions.EditColleagueDiscount)]
         public JsonResult OnPostEdit(EditColleagueDiscount command)
         {
             var result = _discountApplication.Edit(command);

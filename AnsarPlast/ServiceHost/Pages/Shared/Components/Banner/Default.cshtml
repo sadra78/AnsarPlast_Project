@@ -1,0 +1,39 @@
+﻿@using Microsoft.CodeAnalysis.FlowAnalysis
+@model List<_01_AnsarPlastQuery.Contracts.Banner.BannerQueryModel>
+
+<section class="ec-banner section section-space-p">
+    <h2 class="d-none">Banner</h2>
+    <div class="container">
+        <!-- ec Banners Start -->
+        <div class="ec-banner-inner">
+            <!--ec Banner Start -->
+            <div class="ec-banner-block ec-banner-block-2">
+                <div class="row">
+                    @foreach (var banner in Model)
+                    {
+                        <div class="banner-block col-lg-6 col-md-12 margin-b-30" data-animation="slideInRight">
+                            <div class="bnr-overlay">
+                                <img src="~/ProductPictures/@banner.Picture" alt="@banner.PictureAlt" title="@banner.PictureTitle" width="800" height="400">
+                                <div class="banner-text">
+                                    <span class="ec-banner-stitle">@banner.Title</span>
+                                    <span class="ec-banner-title">@banner.Text</span>
+                                    @*<span class="ec-banner-discount">30% تخفیف</span>*@
+                                </div>
+                                @if (!string.IsNullOrWhiteSpace(@banner.BtnText))
+                                {
+                                    <div class="banner-content">
+                                        <span class="ec-banner-btn"><a href="@banner.Link">ارسال</a></span>
+                                    </div>
+                                }
+
+                            </div>
+                        </div>
+
+                    }
+                </div>
+                <!-- ec Banner End -->
+            </div>
+            <!-- ec Banners End -->
+        </div>
+    </div>
+</section>

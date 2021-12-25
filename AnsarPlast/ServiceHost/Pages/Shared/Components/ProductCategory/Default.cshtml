@@ -1,36 +1,33 @@
 ﻿@model List<_01_AnsarPlastQuery.Contracts.ProductCategory.ProductCategoryQueryModel>
-<div class="category-area section-space">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!--=======  category wrapper  =======-->
-                <div class="category-wrapper">
-                    <div class="row row-10 masonry-category-layout">
-                        @foreach (var item in Model)
-                        {
-                            <div class="col-lg-4 col-sm-6 grid-item">
-                                <!--=======  single category item  =======-->
-                                <div class="single-category-item">
-                                    <div class="single-category-item__image">
-                                        <a asp-page="/ProductCategory" asp-route-id="@item.Slug">
-                                            <img src="~/ProductPictures/@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle"  class="img-fluid">
-                                        </a>
-                                    </div>
-                                    <div class="single-category-item__content">
-                                        <h3 class="title">@item.Name</h3>
-                                        <a asp-page="/ProductCategory" asp-route-id="@item.Slug">
-                                            <i class="ion-android-arrow-dropleft-circle"></i> خرید
-                                        </a>
-                                    </div>
-                                </div>
-                                <!--=======  End of single category item  =======-->
-                            </div>
-
-                        }
+    <!--  category Section Start -->
+<section class="section ec-category-section ec-category-wrapper-1 section-space-p">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-title">
+                        <h2 class="ec-bg-title">دسته بندی محصولات</h2>
+                        <h2 class="ec-title">دسته بندی محصولات</h2>
+                        <p class="sub-title"> مشاهده برترین دسته بندی های ما </p>
                     </div>
                 </div>
-                <!--=======  End of category wrapper  =======-->
+            </div>
+            <div class="row margin-minus-tb-15">
+                <div class="ec_cat_slider">
+                    @foreach (var item in Model)
+                    {
+                        <div class="ec_cat_content">
+                            <div class="ec_cat_inner">
+                                <div class="ec-cat-image">
+                                    <img src="~/ProductPictures/@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle" width="400" height="400">
+                                </div>
+                                <div class="ec-cat-desc">
+                                    <span class="ec-section-btn"><a href="@item.Slug" class="btn-primary">@item.Name</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
+<!--category Section End -->

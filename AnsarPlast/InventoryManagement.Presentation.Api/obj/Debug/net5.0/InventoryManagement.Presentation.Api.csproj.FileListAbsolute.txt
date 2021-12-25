@@ -1,0 +1,318 @@
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.deps.json
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ref\InventoryManagement.Presentation.Api.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\0_Framework.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\0_Framework.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.AssemblyReference.cache
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.GeneratedMSBuildEditorConfig.editorconfig
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfoInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfo.cs
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CoreCompileInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CopyComplete
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\ref\InventoryManagement.Presentation.Api.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\01_AnsarPlastQuery.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Application.Contract.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\01_AnsarPlastQuery.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Domain.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Application.Contract.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Domain.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Domain.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Domain.pdb
+E:\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.deps.json
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ref\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\01_AnsarPlastQuery.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\01_AnsarPlastQuery.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\ref\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.deps.json
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ref\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\01_AnsarPlastQuery.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\01_AnsarPlastQuery.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\ref\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.deps.json
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ref\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\01_AnsarPlastQuery.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\01_AnsarPlastQuery.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\ref\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.deps.json
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ref\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\01_AnsarPlastQuery.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\01_AnsarPlastQuery.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\ref\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.deps.json
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ref\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\01_AnsarPlastQuery.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\01_AnsarPlastQuery.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\ref\InventoryManagement.Presentation.Api.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.pdb

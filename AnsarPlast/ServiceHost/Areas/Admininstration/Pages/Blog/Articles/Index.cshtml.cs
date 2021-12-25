@@ -1,12 +1,15 @@
 using System.Collections.Generic;
+using _0_Framework.Infrastructure;
 using BlogManagement.Application.Contract.Article;
 using BlogManagement.Application.Contract.ArticleCategory;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ServiceHost.Areas.Admininstration.Pages.Blog.Articles
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         public ArticleSearchModel SearchModel;
@@ -21,6 +24,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Blog.Articles
             _articleCategoryApplication = articleCategoryApplication;
         }
 
+        [NeedPermission(AdminPermissions.ListArticles)]
         public void OnGet(ArticleSearchModel searchModel)
         {
             ArticleCategories = new SelectList(_articleCategoryApplication.GetArticleCategories(), "Id", "Name");

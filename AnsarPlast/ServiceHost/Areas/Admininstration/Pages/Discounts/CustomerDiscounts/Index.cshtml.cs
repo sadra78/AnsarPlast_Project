@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using _0_Framework.Infrastructure;
 using DiscountManagement.Application.Contract.CustomerDiscount;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -23,13 +24,14 @@ namespace ServiceHost.Areas.Admininstration.Pages.Discounts.CustomerDiscounts
             _discountApplication = customerDiscount;
         }
 
+        [NeedPermission(AdminPermissions.ListCustomerDiscount)]
         public void OnGet(CustomerDiscountSearchModel searchModel)
         {
             Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
             CustomerDiscount = _discountApplication.Search(searchModel);
         }
 
-
+        [NeedPermission(AdminPermissions.DefineCustomerDiscount)]
         public IActionResult OnGetCreate()
         {
             var command = new DefineCustomerDiscount
@@ -47,6 +49,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Discounts.CustomerDiscounts
             return new JsonResult(result);
         }
 
+        [NeedPermission(AdminPermissions.EditCustomerDiscount)]
         public IActionResult OnGetEdit(long id)
         {
             var customerDiscount = _discountApplication.GetDetails(id);

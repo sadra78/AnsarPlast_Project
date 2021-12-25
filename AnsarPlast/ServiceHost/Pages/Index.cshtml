@@ -1,171 +1,462 @@
 ﻿@page
-@model IndexModel
+@using Microsoft.AspNetCore.Razor.Language.Components
+@model ServiceHost.Pages.IndexModel
 @{
-    ViewData["Title"] = "انصار پلاست";
 }
-<!--====================  hero slider area  ====================-->
 
 @await Component.InvokeAsync("Slide")
-
-<!--====================  End of hero slider area  ====================-->
-<!--====================  category area ====================-->
-@await Component.InvokeAsync("ProductCategory")
-<!--====================  End of category area  ====================-->
-<!--====================  single row slider tab ====================-->
+<!-- Product tab Area Start -->
 @await Component.InvokeAsync("ProductCategoryWithProduct")
-<!--====================  End of single row slider tab  ====================-->
-<!--====================  single row slider ====================-->
+<!-- ec Product tab Area End -->
+<!-- ec Banner Section Start -->
+@await Component.InvokeAsync("Banner")
+<!-- ec Banner Section End -->
+<!--  Category Section Start -->
+@await Component.InvokeAsync("ProductCategory")
+<!-- Category Section End -->
+<!--  Feature & Special Section Start -->
+<section class="section ec-fre-spe-section section-space-p">
+    <div class="container">
+        <div class="row">
+            <!--  Feature Section Start -->
+            <div class="ec-fre-section col-lg-6 col-md-6 col-sm-6 margin-b-30" data-animation="slideInRight">
+                <div class="col-md-12 text-left">
+                    <div class="section-title">
+                        <h2 class="ec-bg-title">موراد برگزیده</h2>
+                        <h2 class="ec-title">موراد برگزیده</h2>
+                    </div>
+                </div>
+
+                <div class="ec-fre-products">
+                    <div class="ec-fs-product">
+                        <div class="ec-fs-pro-inner">
+                            <div class="ec-fs-pro-image-outer col-lg-6 col-md-6 col-sm-6">
+                                <div class="ec-fs-pro-image">
+                                    <a href="product-left-sidebar.html" class="image"><img class="main-image" src="~/Theme/assets/images/product-image/1_1.jpg" alt="Product"></a>
+                                    <a href="#" class="quickview" data-link-action="quickview" title="مشاهده" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="~/Theme/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="ec-fs-pro-content col-lg-6 col-md-6 col-sm-6">
+                                <h5 class="ec-fs-pro-title">
+                                    <a href="product-left-sidebar.html">اسباب بازی تدی بر </a>
+                                </h5>
+                                <div class="ec-fs-pro-rating">
+                                    <span class="ec-fs-rating-icon">
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star"></i>
+                                    </span>
+                                    <span class="ec-fs-rating-text">4 نظر</span>
+                                </div>
+                                <div class="ec-fs-price">
+                                    <span class="old-price">54900 تومان</span>
+                                    <span class="new-price">4800 تومان</span>
+                                </div>
+
+                                <div class="countdowntimer"><span id="ec-fs-count-1"></span></div>
+                                <div class="ec-fs-pro-desc">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                                </div>
+                                <div class="ec-fs-pro-book">رزرو کلی: <span>25</span></div>
+                                <div class="ec-fs-pro-btn">
+                                    <a href="#" class="btn btn-lg btn-secondary">یادآوری</a>
+                                    <a href="#" class="btn btn-lg btn-primary">رزرو</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ec-fs-product">
+                        <div class="ec-fs-pro-inner">
+                            <div class="ec-fs-pro-image-outer col-lg-6 col-md-6 col-sm-6">
+                                <div class="ec-fs-pro-image">
+                                    <a href="product-left-sidebar.html" class="image"><img class="main-image" src="~/Theme/assets/images/product-image/3_1.jpg" alt="Product"></a>
+                                    <a href="#" class="quickview" data-link-action="quickview" title="مشاهده" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="~/Theme/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="ec-fs-pro-content col-lg-6 col-md-6 col-sm-6">
+                                <h5 class="ec-fs-pro-title">
+                                    <a href="product-left-sidebar.html">کیف چرم زنانه</a>
+                                </h5>
+                                <div class="ec-fs-pro-rating">
+                                    <span class="ec-fs-rating-icon">
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                    </span>
+                                    <span class="ec-fs-rating-text">4 نظر</span>
+                                </div>
+                                <div class="ec-fs-price">
+                                    <span class="old-price">3000 تومان</span>
+                                    <span class="new-price">2500 تومان</span>
+                                </div>
+
+                                <div class="countdowntimer"><span id="ec-fs-count-2"></span></div>
+                                <div class="ec-fs-pro-desc">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                                </div>
+                                <div class="ec-fs-pro-book">رزرو کلی: <span>25</span></div>
+                                <div class="ec-fs-pro-btn">
+                                    <a href="#" class="btn btn-lg btn-secondary">یادآوری</a>
+                                    <a href="#" class="btn btn-lg btn-primary">رزرو</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  Feature Section End -->
+            <!--  Special Section Start -->
+            <div class="ec-spe-section col-lg-6 col-md-6 col-sm-6" data-animation="slideInLeft">
+                <div class="col-md-12 text-left">
+                    <div class="section-title">
+                        <h2 class="ec-bg-title">مدت محدود تخفیف</h2>
+                        <h2 class="ec-title">مدت محدود تخفیف</h2>
+                    </div>
+                </div>
+
+                <div class="ec-spe-products">
+                    <div class="ec-fs-product">
+                        <div class="ec-fs-pro-inner">
+                            <div class="ec-fs-pro-image-outer col-lg-6 col-md-6 col-sm-6">
+                                <div class="ec-fs-pro-image">
+                                    <a href="product-left-sidebar.html" class="image"><img class="main-image" src="~/Theme/assets/images/product-image/8_1.jpg" alt="Product"></a>
+                                    <a href="#" class="quickview" data-link-action="quickview" title="مشاهده" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="~/Theme/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="ec-fs-pro-content col-lg-6 col-md-6 col-sm-6">
+                                <h5 class="ec-fs-pro-title">
+                                    <a href="product-left-sidebar.html">ساعت هوشمند فلبک</a>
+                                </h5>
+                                <div class="ec-fs-pro-rating">
+                                    <span class="ec-fs-rating-icon">
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star"></i>
+                                    </span>
+                                    <span class="ec-fs-rating-text">4 نظر</span>
+                                </div>
+                                <div class="ec-fs-price">
+                                    <span class="old-price">2000 تومان</span>
+                                    <span class="new-price">1800 تومان</span>
+                                </div>
+                                <div class="countdowntimer"><span id="ec-fs-count-3"></span></div>
+                                <div class="ec-fs-pro-desc">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                                </div>
+                                <div class="ec-fs-pro-book">رزرو کلی: <span>25</span></div>
+                                <div class="ec-fs-pro-btn">
+                                    <a href="#" class="btn btn-lg btn-secondary">یادآوری</a>
+                                    <a href="#" class="btn btn-lg btn-primary">رزرو</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ec-fs-product">
+                        <div class="ec-fs-pro-inner">
+                            <div class="ec-fs-pro-image-outer col-lg-6 col-md-6 col-sm-6">
+                                <div class="ec-fs-pro-image">
+                                    <a href="product-left-sidebar.html" class="image"><img class="main-image" src="~/Theme/assets/images/product-image/10_1.jpg" alt="Product"></a>
+                                    <a href="#" class="quickview" data-link-action="quickview" title="مشاهده" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="~/Theme/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="ec-fs-pro-content col-lg-6 col-md-6 col-sm-6">
+                                <h5 class="ec-fs-pro-title">
+                                    <a href="product-left-sidebar.html">کفش مردانه</a>
+                                </h5>
+                                <div class="ec-fs-pro-rating">
+                                    <span class="ec-fs-rating-icon">
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="ecicon eci-star fill"></i>
+                                    </span>
+                                    <span class="ec-fs-rating-text">4 نظر</span>
+                                </div>
+                                <div class="ec-fs-price">
+                                    <span class="old-price">1200 تومان</span>
+                                    <span class="new-price">9500 تومان</span>
+                                </div>
+
+                                <div class="countdowntimer"><span id="ec-fs-count-4"></span></div>
+                                <div class="ec-fs-pro-desc">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                                </div>
+                                <div class="ec-fs-pro-book">رزرو کلی: <span>25</span></div>
+                                <div class="ec-fs-pro-btn">
+                                    <a href="#" class="btn btn-lg btn-secondary">یادآوری</a>
+                                    <a href="#" class="btn btn-lg btn-primary">رزرو</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  Special Section End -->
+        </div>
+    </div>
+</section>
+<!-- Feature & Special Section End -->
+<!--  services Section Start -->
+<section class="section ec-services-section section-space-p">
+    <h2 class="d-none">خدمات</h2>
+    <div class="container">
+        <div class="row">
+            <div class="ec_ser_content ec_ser_content_1 col-sm-12 col-md-6 col-lg-3" data-animation="zoomIn">
+                <div class="ec_ser_inner">
+                    <div class="ec-service-image">
+                        <img src="~/Theme/assets/images/icons/service_1.svg" class="svg_img" alt="">
+                    </div>
+                    <div class="ec-service-desc">
+                        <h2> ارسال رایگان </h2>
+                        <p> ارسال رایگان  برای سفارشات بالای 200 هزارتومان</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ec_ser_content ec_ser_content_2 col-sm-12 col-md-6 col-lg-3" data-animation="zoomIn">
+                <div class="ec_ser_inner">
+                    <div class="ec-service-image">
+                        <img src="~/Theme/assets/images/icons/service_2.svg" class="svg_img" alt="">
+                    </div>
+                    <div class="ec-service-desc">
+                        <h2>24X7 پشتیبانی </h2>
+                        <p>با ما 24 ساعته در هفت روز هفته در تماس باشید </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ec_ser_content ec_ser_content_3 col-sm-12 col-md-6 col-lg-3" data-animation="zoomIn">
+                <div class="ec_ser_inner">
+                    <div class="ec-service-image">
+                        <img src="~/Theme/assets/images/icons/service_3.svg" class="svg_img" alt="">
+                    </div>
+                    <div class="ec-service-desc">
+                        <h2>  روزه 30 بازگشت </h2>
+                        <p> برگشت آسان 30 روزه برای تعویض </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ec_ser_content ec_ser_content_4 col-sm-12 col-md-6 col-lg-3" data-animation="zoomIn">
+                <div class="ec_ser_inner">
+                    <div class="ec-service-image">
+                        <img src="~/Theme/assets/images/icons/service_4.svg" class="svg_img" alt="">
+                    </div>
+                    <div class="ec-service-desc">
+                        <h2>پرداخت امن</h2>
+                        <p>با ما 24 ساعته در هفت روز هفته در تماس باشید </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--services Section End -->
+<!--  offer Section Start -->
+<section class="section ec-offer-section section-space-p section-space-m">
+    <h2 class="d-none">Offer</h2>
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-xl-6 col-lg-7 col-md-7 col-sm-7 align-self-center ec-offer-content">
+                <h2 class="ec-offer-title">عینک آفتابی</h2>
+                <h3 class="ec-offer-stitle" data-animation="slideInDown">بهترین پیشنهاد</h3>
+                <span class="ec-offer-img" data-animation="zoomIn"><img src="~/Theme/assets/images/offer-image/1.png" alt="offer image"></span>
+                <span class="ec-offer-desc">عینک آفتابی طبی</span>
+                <span class="ec-offer-price">4000 تومان </span>
+                <a class="btn btn-primary" href="shop-left-sidebar-col-3.html" data-animation="zoomIn">خرید </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- offer Section End -->
+<!-- New Product Start -->
+<!-- New Product end -->
 @await Component.InvokeAsync("LatesProduct")
-<!--====================  End of single row slider  ====================-->
-<!--====================  banner hover area ====================-->
-<div class="banner-hover-area section-space">
+<!-- ec testmonial Start -->
+<section class="section ec-test-section section-space-ptb-100 section-space-m">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <!--=======  banner hover wrapper  =======-->
-                <div class="banner-hover-wrapper">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <!--=======  single hover banner  =======-->
-                            <div class="single-hover-banner">
-                                <div class="single-hover-banner__image">
-                                    <a href="shop-left-sidebar.html">
-                                        <img src="~/Theme/assets/img/banners/img1-middle-eposi1.jpg" class="img-fluid"
-                                             alt="">
-                                    </a>
-                                    <div class="single-hover-banner__content">
-                                        <h4 class="small-text">Black Friday</h4>
-                                        <h3 class="big-text">Save Up To 50% Off</h3>
-                                        <a class="banner-link" href="shop-left-sidebar.html">SHOP NOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--=======  End of single hover banner  =======-->
-                        </div>
-
-                        <div class="col-md-6">
-                            <!--=======  single hover banner  =======-->
-                            <div class="single-hover-banner">
-                                <div class="single-hover-banner__image">
-                                    <a href="shop-left-sidebar.html">
-                                        <img src="~/Theme/assets/img/banners/img2-middle-eposi1.jpg" class="img-fluid"
-                                             alt="">
-                                    </a>
-                                    <div class="single-hover-banner__content">
-                                        <h4 class="small-text">Best Selling !</h4>
-                                        <h3 class="big-text">Living Room Up To 70% Off</h3>
-                                        <a class="banner-link" href="shop-left-sidebar.html">SHOP NOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--=======  End of single hover banner  =======-->
-                        </div>
-                    </div>
+            <div class="col-md-12 text-center">
+                <div class="section-title mb-0">
+                    <h2 class="ec-bg-title">توصیفات</h2>
+                    <h2 class="ec-title">نظرات مشتریان</h2>
+                    <p class="sub-title mb-3">آنچه مشتریان درباره ما میگویند</p>
                 </div>
-                <!--=======  End of banner hover wrapper  =======-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="ec-test-outer">
+                <ul id="ec-testimonial-slider">
+                    <li class="ec-test-item">
+                        <img src="~/Theme/assets/images/testimonial/top-quotes.svg" class="svg_img test_svg top" alt="">
+                        <div class="ec-test-inner">
+                            <div class="ec-test-img"><img alt="testimonial" title="testimonial" src="~/Theme/assets/images/testimonial/1.jpg"></div>
+                            <div class="ec-test-content">
+                                <div class="ec-test-desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد</div>
+                                <div class="ec-test-name">جان داو</div>
+                                <div class="ec-test-designation">مدیر کل</div>
+                                <div class="ec-test-rating">
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="~/Theme/assets/images/testimonial/bottom-quotes.svg" class="svg_img test_svg bottom" alt="">
+                    </li>
+                    <li class="ec-test-item ">
+                        <img src="~/Theme/assets/images/testimonial/top-quotes.svg" class="svg_img test_svg top" alt="">
+                        <div class="ec-test-inner">
+                            <div class="ec-test-img"><img alt="testimonial" title="testimonial" src="~/Theme/assets/images/testimonial/2.jpg"></div>
+                            <div class="ec-test-content">
+                                <div class="ec-test-desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد</div>
+                                <div class="ec-test-name">جان داو</div>
+                                <div class="ec-test-designation">مدیر کل</div>
+                                <div class="ec-test-rating">
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="~/Theme/assets/images/testimonial/bottom-quotes.svg" class="svg_img test_svg bottom" alt="">
+                    </li>
+                    <li class="ec-test-item">
+                        <img src="~/Theme/assets/images/testimonial/top-quotes.svg" class="svg_img test_svg top" alt="">
+                        <div class="ec-test-inner">
+                            <div class="ec-test-img"><img alt="testimonial" title="testimonial" src="~/Theme/assets/images/testimonial/3.jpg"></div>
+                            <div class="ec-test-content">
+                                <div class="ec-test-desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد</div>
+                                <div class="ec-test-name">جان داو</div>
+                                <div class="ec-test-designation">مدیر کل</div>
+                                <div class="ec-test-rating">
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="~/Theme/assets/images/testimonial/bottom-quotes.svg" class="svg_img test_svg bottom" alt="">
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-</div>
-<!--====================  End of banner hover area  ====================-->
-<!--====================  feature logo area ====================-->
-<div class="feature-logo-area">
+</section>
+<!-- ec testmonial end -->
+<!-- Ec Brand Section Start -->
+<section class="section ec-brand-area section-space-p">
+    <h2 class="d-none">برند</h2>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <!--=======  feature logo wrapper  =======-->
-                <div class="feature-logo-wrapper section-space--inner-bottom">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <!--=======  single feature logo  =======-->
-                            <div class="single-feature-logo">
-                                <div class="single-feature-logo__image">
-                                    <img src="~/Theme/assets/img/icons/free_shipping.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="single-feature-logo__content">
-                                    <h4 class="title">FREE SHIPPING WORLDWIDE</h4>
-                                    <p class="short-desc">
-                                        We offer free shipping via Standard Shipping on orders
-                                        over $200.00
-                                    </p>
-                                </div>
-                            </div>
-                            <!--=======  End of single feature logo  =======-->
-                        </div>
-                        <div class="col-md-4">
-                            <!--=======  single feature logo  =======-->
-                            <div class="single-feature-logo">
-                                <div class="single-feature-logo__image">
-                                    <img src="~/Theme/assets/img/icons/money_back.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="single-feature-logo__content">
-                                    <h4 class="title">MONEY BACK GUARANTEE</h4>
-                                    <p class="short-desc">
-                                        If you're not satisfied with our product, we'll refund the
-                                        purchase price*.
-                                    </p>
-                                </div>
-                            </div>
-                            <!--=======  End of single feature logo  =======-->
-                        </div>
-                        <div class="col-md-4">
-                            <!--=======  single feature logo  =======-->
-                            <div class="single-feature-logo">
-                                <div class="single-feature-logo__image">
-                                    <img src="~/Theme/assets/img/icons/support247.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="single-feature-logo__content">
-                                    <h4 class="title">ONLINE SUPPORT 24/7</h4>
-                                    <p class="short-desc">
-                                        Our friendly support team is available to help you 24
-                                        hours a day, seven days a week
-                                    </p>
-                                </div>
-                            </div>
-                            <!--=======  End of single feature logo  =======-->
-                        </div>
-                    </div>
-                </div>
-                <!--=======  End of feature logo wrapper  =======-->
+            <div class="ec-brand-outer">
+                <ul id="ec-brand-slider">
+                    <li class="ec-brand-item" data-animation="zoomIn">
+                        <div class="ec-brand-img"><a href="#"><img alt="brand" title="برند" src="~/Theme/assets/images/brand-image/1.png"></a></div>
+                    </li>
+                    <li class="ec-brand-item" data-animation="zoomIn">
+                        <div class="ec-brand-img"><a href="#"><img alt="brand" title="برند" src="~/Theme/assets/images/brand-image/2.png"></a></div>
+                    </li>
+                    <li class="ec-brand-item" data-animation="zoomIn">
+                        <div class="ec-brand-img"><a href="#"><img alt="brand" title="برند" src="~/Theme/assets/images/brand-image/3.png"></a></div>
+                    </li>
+                    <li class="ec-brand-item" data-animation="zoomIn">
+                        <div class="ec-brand-img"><a href="#"><img alt="brand" title="برند" src="~/Theme/assets/images/brand-image/4.png"></a></div>
+                    </li>
+                    <li class="ec-brand-item" data-animation="zoomIn">
+                        <div class="ec-brand-img"><a href="#"><img alt="brand" title="برند" src="~/Theme/assets/images/brand-image/5.png"></a></div>
+                    </li>
+                    <li class="ec-brand-item" data-animation="zoomIn">
+                        <div class="ec-brand-img"><a href="#"><img alt="brand" title="برند" src="~/Theme/assets/images/brand-image/6.png"></a></div>
+                    </li>
+                    <li class="ec-brand-item" data-animation="zoomIn">
+                        <div class="ec-brand-img"><a href="#"><img alt="brand" title="برند" src="~/Theme/assets/images/brand-image/7.png"></a></div>
+                    </li>
+                    <li class="ec-brand-item" data-animation="zoomIn">
+                        <div class="ec-brand-img"><a href="#"><img alt="brand" title="برند" src="~/Theme/assets/images/brand-image/8.png"></a></div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-</div>
-<!--====================  End of feature logo area  ====================-->
-<!--====================  blog post slider area ====================-->
-@await Component.InvokeAsync("LatesArticles")
-<!--====================  End of blog post slider area  ====================-->
-<!--====================  newsletter area ====================-->
-<div class="newsletter-area section-space--inner">
+</section>
+<!-- Ec Brand Section End -->
+<!-- Ec Instagram Start -->
+<section class="section ec-instagram-section module section-space-p">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 offset-lg-2">
-                <div class="newsletter-wrapper">
-                    <p class="small-text">Special Ofers For Subscribers</p>
-                    <h3 class="title">Ten Percent Member Discount</h3>
-                    <p class="short-desc">
-                        Subscribe to our newsletters now and stay up to date with new collections,
-                        the latest lookbooks and exclusive offers.
-                    </p>
-
-                    <div class="newsletter-form">
-                        <form id="mc-form" class="mc-form">
-                            <input type="email" placeholder="Enter Your Email Address Here..." required>
-                            <button type="submit" value="submit">SUBSCRIBE</button>
-                        </form>
-
-                    </div>
-                    <!-- mailchimp-alerts Start -->
-                    <div class="mailchimp-alerts">
-                        <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
-                        <div class="mailchimp-success"></div><!-- mailchimp-success end -->
-                        <div class="mailchimp-error"></div><!-- mailchimp-error end -->
-                    </div>
-                    <!-- mailchimp-alerts end -->
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <h2 class="ec-bg-title">فید اینستاگرام</h2>
+                    <h2 class="ec-title">فید اینستاگرام</h2>
+                    <p class="sub-title">استوری هاتون رو با ما در میون بذارید</p>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!--====================  End of newsletter area  ====================-->
-<!--====================  footer area ====================-->
+    <div class="ec-insta-wrapper">
+        <div class="ec-insta-outer">
+            <div class="container" data-animation="fadeIn">
+                <div class="insta-auto">
+                    <!-- instagram item -->
+                    <div class="ec-insta-item">
+                        <div class="ec-insta-inner">
+                            <a href="#" target="_blank"><img src="~/Theme/assets/images/instragram-image/1.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <!-- instagram item -->
+                    <div class="ec-insta-item">
+                        <div class="ec-insta-inner">
+                            <a href="#" target="_blank"><img src="~/Theme/assets/images/instragram-image/2.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <!-- instagram item -->
+                    <div class="ec-insta-item">
+                        <div class="ec-insta-inner">
+                            <a href="#" target="_blank"><img src="~/Theme/assets/images/instragram-image/3.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <!-- instagram item -->
+                    <div class="ec-insta-item">
+                        <div class="ec-insta-inner">
+                            <a href="#" target="_blank"><img src="~/Theme/assets/images/instragram-image/4.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <!-- instagram item -->
+                    <!-- instagram item -->
+                    <div class="ec-insta-item">
+                        <div class="ec-insta-inner">
+                            <a href="#" target="_blank"><img src="~/Theme/assets/images/instragram-image/5.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <!-- instagram item -->
+                    <!-- instagram item -->
+                    <div class="ec-insta-item">
+                        <div class="ec-insta-inner">
+                            <a href="#" target="_blank"><img src="~/Theme/assets/images/instragram-image/6.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <!-- instagram item -->
+                    <!-- instagram item -->
+                    <div class="ec-insta-item">
+                        <div class="ec-insta-inner">
+                            <a href="#" target="_blank"><img src="~/Theme/assets/images/instragram-image/7.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <!-- instagram item -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Ec Instagram End -->

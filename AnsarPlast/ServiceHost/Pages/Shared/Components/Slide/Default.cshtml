@@ -1,67 +1,35 @@
-﻿@model List<_01_AnsarPlastQuery.Contracts.Slide.SlideQueryModel>
-
-
-<div class="hero-slider-area section-space">
-    <div class="container wide">
-        <div class="row">
-            <div class="col-lg-12">
-                <!--=======  hero slider wrapper  =======-->
-
-                <div class="hero-slider-wrapper">
-                    <div class="ht-slick-slider" data-slick-setting='{
-                        "slidesToShow": 1,
-                        "slidesToScroll": 1,
-                        "arrows": true,
-                        "dots": true,
-                        "autoplay": true,
-                        "autoplaySpeed": 5000,
-                        "speed": 1000,
-                        "fade": true,
-                        "infinite": true,
-                        "prevArrow": {"buttonClass": "slick-prev", "iconClass": "ion-chevron-left" },
-                        "nextArrow": {"buttonClass": "slick-next", "iconClass": "ion-chevron-right" }
-                    }' data-slick-responsive='[
-                        {"breakpoint":1501, "settings": {"slidesToShow": 1} },
-                        {"breakpoint":1199, "settings": {"slidesToShow": 1, "arrows": false} },
-                        {"breakpoint":991, "settings": {"slidesToShow": 1, "arrows": false} },
-                        {"breakpoint":767, "settings": {"slidesToShow": 1, "arrows": false} },
-                        {"breakpoint":575, "settings": {"slidesToShow": 1, "arrows": false} },
-                        {"breakpoint":479, "settings": {"slidesToShow": 1, "arrows": false} }
-                    ]'>
-
-                        <!--=======  single slider item  =======-->
-                        @foreach (var slide in Model)
-                        {
-                            <div class="single-slider-item">
-                                <div class="hero-slider-item-wrapper">
-                                    <div class="container">
-                                        <img src="~/ProductPictures/@slide.Picture" alt="@slide.PictureAlt" title="@slide.PictureTitle" />
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="hero-slider-content hero-slider-content--left-space">
-                                                    <p class="slider-title slider-title--big-light">@slide.Heading</p>
-                                                    <p class="slider-title slider-title--big-bold">@slide.Title</p>
-                                                    <p class="slider-title slider-title--small">
-                                                        @slide.Text
-                                                    </p>
-                                                    <a class="hero-slider-button" href="@slide.Link">
-                                                        @slide.BtnText <i class="ion-ios-plus-empty"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+﻿@using Microsoft.CodeAnalysis.CSharp
+@model List<_01_AnsarPlastQuery.Contracts.Slide.SlideQueryModel>
+<!-- Main Slider Start -->
+<div class="sticky-header-next-sec ec-main-slider section section-space-pb">
+    <div class="ec-slider swiper-container main-slider-nav main-slider-dot">
+        <!-- Main slider -->
+        <div class="swiper-wrapper">
+            @foreach (var slide in Model)
+            {
+                <div class="ec-slide-item swiper-slide d-flex">
+                    <img src="~/ProductPictures/@slide.Picture" alt="@slide.PictureAlt" title="@slide.Title" style="position: absolute; top: 0; left: 0; height: 100%; width: 100%"/>
+                    <div class="container align-self-center">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-7 col-md-7 col-sm-7 align-self-center">
+                                <div class="ec-slide-content slider-animation">
+                                    <h1 class="ec-slide-title"> @slide.Heading </h1>
+                                    <h2 class="ec-slide-stitle">@slide.Title</h2>
+                                    <p>@slide.Text</p>
+                                    <a href="@slide.Link" class="btn btn-lg btn-secondary">@slide.BtnText</a>
                                 </div>
                             </div>
-                        }
-
-                        <!--=======  End of single slider item  =======-->
-
+                        </div>
                     </div>
                 </div>
+            }
 
-                <!--=======  End of hero slider wrapper  =======-->
-            </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <div class="swiper-buttons">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </div>
 </div>
+<!-- Main Slider End -->

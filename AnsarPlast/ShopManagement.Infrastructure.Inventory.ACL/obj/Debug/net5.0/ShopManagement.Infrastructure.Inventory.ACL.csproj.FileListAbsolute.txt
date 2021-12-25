@@ -1,0 +1,126 @@
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.AssemblyReference.cache
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.GeneratedMSBuildEditorConfig.editorconfig
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.AssemblyInfoInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.AssemblyInfo.cs
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.CoreCompileInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.deps.json
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ref\ShopManagement.Infrastructure.Inventory.ACL.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.pdb
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\0_Framework.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Domain.pdb
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\0_Framework.pdb
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.CopyComplete
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.Inventory.ACL.dll
+E:\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.deps.json
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ref\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.deps.json
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ref\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.deps.json
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ref\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.deps.json
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ref\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.deps.json
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ref\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.Inventory.ACL.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\ShopManagement.Infrastructure.Inventory.ACL\obj\Debug\net5.0\ShopManagement.Infrastructure.Inventory.ACL.pdb

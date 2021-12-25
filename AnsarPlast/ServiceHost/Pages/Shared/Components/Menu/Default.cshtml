@@ -1,6 +1,9 @@
-﻿@model _01_AnsarPlastQuery.MenuModel
+﻿@using _0_Framework.Application
+@using _0_Framework.Infrastructure
+@model _01_AnsarPlastQuery.MenuModel
+@inject IAuthHelper AuthHelper;
 @{
-
+    var currentAccount = AuthHelper.CurrentAccountInfo();
 }
 
 <div class="header-area header-sticky">
@@ -11,8 +14,8 @@
                 <div class="header-wrapper d-none d-lg-flex">
                     <!-- logo -->
                     <div class="logo">
-                        <a href="index.html">
-                            <img src="~/Theme/assets/img/logo.png" class="img-fluid" alt="">
+                        <a asp-page="/Index">
+                            <img src="~/Theme/assets/img/logo.png" class="img-fluid" alt="" width="60" height="60">
                         </a>
                     </div>
                     <!-- menu wrapper -->
@@ -24,7 +27,7 @@
                                 </li>
 
                                 <li class="menu-item-has-children">
-                                    <a >محصولات</a>
+                                    <a>محصولات</a>
                                     <ul class="sub-menu">
                                         @foreach (var category in Model.ProductCategories)
                                         {
@@ -37,7 +40,7 @@
                                 </li>
 
                                 <li class="menu-item-has-children">
-                                    <a >مقالات</a>
+                                    <a>مقالات</a>
                                     <ul class="sub-menu">
                                         @foreach (var article in Model.ArticleCategories)
                                         {
@@ -50,6 +53,24 @@
                                 <li>
                                     <a href="contact.html">تماس با ما</a>
                                 </li>
+                                @if (AuthHelper.IsAuthenticated())
+                                {
+                                    <li>
+                                        <a asp-page="/Account" asp-page-handler="LogOut">خروج</a>
+                                    </li>
+
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a asp-page="/Account">ورود / ثبت نام</a>
+                                    </li>
+                                }
+                                <li>
+                                    <a asp-page="/Profile">کاربر</a>
+
+                                </li>
+
                             </ul>
                         </nav>
                     </div>
@@ -65,88 +86,14 @@
                                 <div class="header-cart-icon">
                                     <a href="#" id="minicart-trigger">
                                         <i class="ion-bag"></i>
-                                        <span class="counter">3</span>
+                                        <span class="counter" id="cart-Items_Count">0</span>
                                     </a>
                                     <!-- mini cart  -->
                                     <div class="mini-cart" id="mini-cart">
-                                        <div class="cart-items-wrapper ps-scroll">
-                                            <div class="single-cart-item">
-                                                <a href="javascript:void(0)" class="remove-icon">
-                                                    <i class="ion-android-close"></i>
-                                                </a>
-                                                <div class="image">
-                                                    <a href="single-product.html">
-                                                        <img src="~/Theme/assets/img/products/product-1-80x106.jpg"
-                                                             class="img-fluid" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="content">
-                                                    <p class="product-title">
-                                                        <a href="single-product.html">Cillum dolore furniture</a>
-                                                    </p>
-                                                    <p class="count"><span>1 x </span> $402</p>
-                                                </div>
-                                            </div>
-                                            <div class="single-cart-item">
-                                                <a href="javascript:void(0)" class="remove-icon">
-                                                    <i class="ion-android-close"></i>
-                                                </a>
-                                                <div class="image">
-                                                    <a href="single-product.html">
-                                                        <img src="~/Theme/assets/img/products/product-2-80x106.jpg"
-                                                             class="img-fluid" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="content">
-                                                    <p class="product-title">
-                                                        <a href="single-product.html">Lorem ipsum furniture</a>
-                                                    </p>
-                                                    <p class="count"><span>1 x </span> $500</p>
-                                                </div>
-                                            </div>
-                                            <div class="single-cart-item">
-                                                <a href="javascript:void(0)" class="remove-icon">
-                                                    <i class="ion-android-close"></i>
-                                                </a>
-                                                <div class="image">
-                                                    <a href="single-product.html">
-                                                        <img src="~/Theme/assets/img/products/product-3-80x106.jpg"
-                                                             class="img-fluid" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="content">
-                                                    <p class="product-title">
-                                                        <a href="single-product.html">Cillum dolore tool</a>
-                                                    </p>
-                                                    <p class="count"><span>1 x </span> $607</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="cart-calculation">
-                                            <table class="table">
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="text-right">Sub-Total :</td>
-                                                        <td class="text-left">$220.00</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-right">Eco Tax (-2.00) :</td>
-                                                        <td class="text-left">$6.00</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-right">VAT (20%) :</td>
-                                                        <td class="text-left">$44.00</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-right">Total :</td>
-                                                        <td class="text-left">$270.00</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                                        <div class="cart-items-wrapper ps-scroll" id="cart_items_wrapper">
                                         </div>
                                         <div class="cart-buttons">
-                                            <a href="cart.html">VIEW CART</a>
-                                            <a href="checkout.html">CHECKOUT</a>
+                                            <a asp-page="./Cart">مشاهده سبد خرید</a>
                                         </div>
                                     </div>
                                 </div>
@@ -167,12 +114,23 @@
                                         <div class="single-settings-block">
                                             <h4 class="title">پروفایل من </h4>
                                             <ul>
-                                                <li>
-                                                    <a href="login-register.html">ثبت نام</a>
-                                                </li>
-                                                <li>
-                                                    <a href="login-register.html">ورود</a>
-                                                </li>
+                                                @if (AuthHelper.IsAuthenticated())
+                                                {
+                                                    <li>
+                                                        <a class="fa fa-sign-out" asp-page="/Account" asp-page-handler="LogOut"> خروج </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a class="fa fa-user" asp-page="./Index" asp-page-handler="AccountArea" asp-route-id="@currentAccount.Id"> ورود به ناحیه کاربری </a>
+                                                    </li>
+
+                                                }
+                                                else
+                                                {
+                                                    <li>
+                                                        <a class="fa fa-sign-in" asp-page="/Account"> ورود / ثبت نام </a>
+                                                    </li>
+                                                }
                                             </ul>
                                         </div>
                                     </div>
@@ -188,8 +146,8 @@
                     <div class="row align-items-center">
                         <div class="col-6 col-md-6">
                             <div class="header-logo">
-                                <a href="index.html">
-                                    <img src="~/Theme/assets/img/logo.png" class="img-fluid" alt="">
+                                <a asp-page="./Index">
+                                    <img src="~/Theme/assets/img/logo.png" class="img-fluid" alt="" width="60" height="60">
                                 </a>
                             </div>
                         </div>
@@ -199,9 +157,9 @@
                                     <ul class="icon-list justify-content-end">
                                         <li>
                                             <div class="header-cart-icon">
-                                                <a href="cart.html">
+                                                <a asp-page="./Cart">
                                                     <i class="ion-bag"></i>
-                                                    <span class="counter">3</span>
+                                                    <span class="counter" id="cart-Items_Count">0</span>
                                                 </a>
                                             </div>
                                         </li>
@@ -251,17 +209,23 @@
                     <li class="menu-item-has-children">
                         <a href="#">محصولات</a>
                         <ul class="sub-menu">
-                            <li>
-                                <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                            </li>
+                            @foreach (var category in Model.ProductCategories)
+                            {
+                                <li>
+                                    <a asp-page="./ProductCategory" asp-route-id="@category.Slug">@category.Name</a>
+                                </li>
+                            }
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">مقالات</a>
                         <ul class="sub-menu">
-                            <li>
-                                <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                            </li>
+                            @foreach (var article in Model.ArticleCategories)
+                            {
+                                <li>
+                                    <a asp-page="./ArticleCategory" asp-route-id="@article.Slug">@article.Name</a>
+                                </li>
+                            }
                         </ul>
                     </li>
                     <li class="menu-item">
@@ -276,12 +240,21 @@
                         <li class="menu-item-has-children">
                             <a href="#"> پروفایل من </a>
                             <ul class="sub-menu">
-                                <li>
-                                    <a href="login-register.html">ثبت نام</a>
-                                </li>
-                                <li>
-                                    <a href="login-register.html">ورود</a>
-                                </li>
+                                @if (AuthHelper.IsAuthenticated())
+                                {
+                                    <li>
+                                        <a class="fa fa-user" asp-page="./Index" asp-page-handler="AccountArea" asp-route-id="@currentAccount.Id"> ورود به ناحیه کاربری </a>
+                                    </li>
+                                    <li>
+                                        <a class="fa fa-sign-out" asp-page="/Account" asp-page-handler="LogOut"> خروج </a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a class="fa fa-sign-in" asp-page="/Account"> ورود / ثبت نام</a>
+                                    </li>
+                                }
                             </ul>
                         </li>
                     </ul>

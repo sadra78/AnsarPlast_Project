@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01_AnsarPlastQuery.Contracts.Slide
+﻿namespace _01_AnsarPlastQuery.Contracts.Slide
 {
     public class SlideQueryModel
     {

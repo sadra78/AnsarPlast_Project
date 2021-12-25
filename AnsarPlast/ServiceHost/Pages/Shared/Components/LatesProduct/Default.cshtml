@@ -1,108 +1,63 @@
 ﻿@model List<_01_AnsarPlastQuery.Contracts.Product.ProductQueryModel>
-<div class="single-row-slider-area section-space">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!--=======  section title  =======-->
-                <div class="section-title-wrapper text-center section-space--half">
-                    <h2 class="section-title"> آخرین محصولات </h2>
-                    <p class="section-subtitle">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
-                    </p>
-                </div>
-                <!--=======  End of section title  =======-->
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <!--=======  single row slider wrapper  =======-->
-                <div class="single-row-slider-wrapper">
-                    <div class="ht-slick-slider" data-slick-setting='{
-                        "slidesToShow": 4,
-                        "slidesToScroll": 1,
-                        "arrows": true,
-                        "autoplay": false,
-                        "autoplaySpeed": 5000,
-                        "speed": 1000,
-                        "infinite": true,
-                        "rtl": true,
-                        "prevArrow": {"buttonClass": "slick-prev", "iconClass": "ion-chevron-left" },
-                        "nextArrow": {"buttonClass": "slick-next", "iconClass": "ion-chevron-right" }
-                    }' data-slick-responsive='[
-                        {"breakpoint":1501, "settings": {"slidesToShow": 4} },
-                        {"breakpoint":1199, "settings": {"slidesToShow": 4, "arrows": false} },
-                        {"breakpoint":991, "settings": {"slidesToShow": 3, "arrows": false} },
-                        {"breakpoint":767, "settings": {"slidesToShow": 2, "arrows": false} },
-                        {"breakpoint":575, "settings": {"slidesToShow": 2, "arrows": false} },
-                        {"breakpoint":479, "settings": {"slidesToShow": 1, "arrows": false} }
-                    ]'>
-
-                        @foreach (var product in Model)
-                        {
-                            <div class="col">
-                                <!--=======  single grid product  =======-->
-                                <div class="single-grid-product">
-                                    <div class="single-grid-product__image">
-                                        <div class="single-grid-product__label">
-                                            @if (product.HasDiscount)
-                                            {
-                                                <span class="sale">-@product.DiscountRate%</span>
-                                            }
-                                            <span class="new">New</span>
-                                        </div>
-                                        <a asp-page="./ProductDetails" asp-route-id="@product.Slug">
-                                            <img src="~/ProductPictures/@product.Picture" class="img-fluid" title="@product.PictureTitle" alt="@product.PictureAlt" width="600" height="800">
-                                        </a>
-
-                                        <div class="hover-icons">
-                                            <a href="javascript:void(0)"><i class="ion-bag"></i></a>
-                                            <a href="javascript:void(0)"><i class="ion-heart"></i></a>
-                                            <a href="javascript:void(0)"><i class="ion-android-options"></i></a>
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#quick-view-modal-container">
-                                                <i class="ion-android-open"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="single-grid-product__content">
-                                        <div class="single-grid-product__category-rating">
-                                            <span class="category"><a asp-page="./ProductCategory" asp-route-id="@product.CategorySlug">@product.Category</a></span>
-                                            <span class="rating">
-                                                <i class="ion-android-star active"></i>
-                                                <i class="ion-android-star active"></i>
-                                                <i class="ion-android-star active"></i>
-                                                <i class="ion-android-star active"></i>
-                                                <i class="ion-android-star-outline"></i>
-                                            </span>
-                                        </div>
-
-                                        <h3 class="single-grid-product__title">
-                                            <a href="single-product.html">
-                                                @product.Name
-                                            </a>
-                                        </h3>
-                                        <p class="single-grid-product__price">
-                                            @if (product.HasDiscount)
-                                            {
-                                                <span class="discounted-price">@product.PriceWithDiscount تومان</span>
-                                                <span class="main-price discounted">@product.Price تومان</span>
-                                            }
-                                            else
-                                            {
-                                                <span class="main-price">@product.Price تومان</span>
-                                            }
-                                        </p>
-                                    </div>
-                                </div>
-                                <!--=======  End of single grid product  =======-->
-                            </div>
-                        }
-
+    <section class="section ec-new-product section-space-p">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-title">
+                        <h2 class="ec-bg-title">جدید ترین محصولات</h2>
+                        <h2 class="ec-title">جدید ترین محصولات</h2>
+                        <p class="sub-title"> مرور مجموعه ای از محصولات برتر و جدید</p>
                     </div>
                 </div>
-                <!--=======  End of single row slider wrapper  =======-->
+            </div>
+            <div class="row">
+                <!-- New Product Content -->
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6  ec-product-content" data-animation="flipInY">
+                        <div class="ec-product-inner">
+                            <div class="ec-pro-image-outer">
+                                <div class="ec-pro-image">
+                                    <a href="product-left-sidebar.html" class="image">
+                                        <img class="main-image" src="~/ProductPictures/@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle">
+                                        <img class="hover-image" src="~/Theme/assets/images/product-image/9_2.jpg" alt="Product">
+                                    </a>
+                                    <span class="flags">
+                                        <span class="sale">جدید</span>
+                                    </span>
+                                    <a href="#" class="quickview" data-link-action="quickview" title="مشاهده" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="~/Theme/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt=""></a>
+                                    <div class="ec-pro-actions">
+                                        <a href="compare.html" class="ec-btn-group compare" title="مقایسه"><img src="~/Theme/assets/images/icons/compare.svg" class="svg_img pro_svg" alt=""></a>
+                                        <button title="افزودن به سبد خرید" class=" add-to-cart"><img src="~/Theme/assets/images/icons/cart.svg" class="svg_img pro_svg" alt=""> افزودن به سبد خرید</button>
+                                        <a class="ec-btn-group wishlist" title="علاقه مندی"><img src="~/Theme/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ec-pro-content">
+                                <h5 class="ec-pro-title"><a href="@item.Slug">@item.Name</a></h5>
+                                <div class="ec-pro-rating">
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="ecicon eci-star"></i>
+                                </div>
+                                @if (item.HasDiscount)
+                                {
+                                    <span class="ec-price">
+                                        <span class="old-price">@item.Price تومان</span>
+                                        <span class="new-price">@item.PriceWithDiscount تومان</span>
+                                    </span>
+                                }
+                                <span class="new-price">@item.Price تومان</span>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+                <div class="col-sm-12 shop-all-btn">
+                    <a href="shop-left-sidebar-col-3.html">تمامی کالکشن‌های فروشگاه</a>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>

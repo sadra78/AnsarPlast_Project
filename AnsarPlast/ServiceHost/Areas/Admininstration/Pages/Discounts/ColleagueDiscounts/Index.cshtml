@@ -1,4 +1,5 @@
 ﻿@page
+@using _0_Framework.Infrastructure
 @model Areas.Admininstration.Pages.Discounts.ColleagueDiscounts.IndexModel
 @{
 }
@@ -11,12 +12,12 @@
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">تعریف تخفیف همکار</a>
+            <a permission="@AdminPermissions.DefineColleagueDiscount" class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">تعریف تخفیف همکار</a>
         </p>
     </div>
 </div>
 
-<div class="row">
+<div class="row" permission="@AdminPermissions.SearchColleagueDiscount">
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -38,7 +39,7 @@
     </div>
 </div>
 
-<div class="row" id="ProductCategoriesDiv">
+<div class="row" permission="@AdminPermissions.ListColleagueDiscount">
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -66,7 +67,7 @@
                                         <td>@item.DiscountRate</td>
                                         <td>@item.CreationDate</td>
                                         <td>
-                                            <a class="btn btn-warning btn-custom waves-effect waves-light m-b-5"
+                                            <a permission="@AdminPermissions.EditColleagueDiscount" class="btn btn-warning btn-custom waves-effect waves-light m-b-5" 
                                                href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>

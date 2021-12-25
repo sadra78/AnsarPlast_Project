@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using _0_Framework.Application;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -30,7 +27,7 @@ namespace ServiceHost
 
             var fileName =$"{DateTime.Now.ToFileName()}-{file.FileName}";
             var filePath = $"{directoryPath}//{fileName}";
-            using var output = System.IO.File.Create(filePath);
+            using var output = File.Create(filePath);
             file.CopyToAsync(output);
 
             return $"{path}/{fileName}";

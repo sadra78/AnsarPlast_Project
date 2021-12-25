@@ -3,8 +3,11 @@
     public class ApplicationMessages
     {
         public const string DuplicatedRecord = "امکان ثبت رکورد تکراری وجود ندارد. لطفا مجدد تلاش بفرمایید.";
+        public const string DuplicatedUserName = "نام کاربری وارد شده در سامانه موجود است.";
         public const string RecordNotFound = "رکورد با اطلاعات درخواست شده یافت نشد. لطفا مجدد تلاش بفرمایید.";
         public static string PasswordsNotMatch = "پسورد و تکرار آن با هم مطابقت ندارند";
         public static string WrongUserPass = "نام کاربری یا کلمه رمز اشتباه است";
+        public static string WrongDiscountCode = "کد تخفیف وارد شده نامعتبر است ";
+        public static string ApplyDiscountCode = "کد تخفیف با موفقیت اعمال شد";
     }
 }

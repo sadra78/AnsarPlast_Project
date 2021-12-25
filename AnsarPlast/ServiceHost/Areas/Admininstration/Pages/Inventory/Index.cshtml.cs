@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using _0_Framework.Infrastructure;
 using InventoryManagement.Application.Contract.Inventory;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -7,6 +9,7 @@ using ShopManagement.Application.Contracts.Product;
 
 namespace ServiceHost.Areas.Admininstration.Pages.Inventory
 {
+    [Authorize(Roles = Roles.Administrator)]
     public class IndexModel : PageModel
     {
         [TempData] public string message { get; set; }
@@ -23,6 +26,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Inventory
             _inventoryApplication = inventoryApplication;
         }
 
+        [NeedPermission(AdminPermissions.ListInventory)]
         public void OnGet(InventorySearchModel searchModel)
         {
             Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
@@ -41,6 +45,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Inventory
 
         }
 
+        [NeedPermission(AdminPermissions.CreateInventory)]
         public JsonResult OnPostCreate(CreateInventory command)
         {
             var result = _inventoryApplication.Create(command);
@@ -54,6 +59,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Inventory
             return Partial("Edit", inventory);
         }
 
+        [NeedPermission(AdminPermissions.EditInventory)]
         public JsonResult OnPostEdit(EditInventory command)
         {
             var result = _inventoryApplication.Edit(command);
@@ -68,6 +74,8 @@ namespace ServiceHost.Areas.Admininstration.Pages.Inventory
             };
             return Partial("Increase", command);
         }
+
+        [NeedPermission(AdminPermissions.IncreaseInventory)]
         public JsonResult OnPostIncrease(IncreaseInventory command)
         {
             var result = _inventoryApplication.Increase(command);
@@ -81,12 +89,16 @@ namespace ServiceHost.Areas.Admininstration.Pages.Inventory
             };
             return Partial("Reduce", command);
         }
+
+        [NeedPermission(AdminPermissions.ReduceInventory)]
         public JsonResult OnPostReduce(ReduceInventory command)
         {
             var result = _inventoryApplication.Reduce(command);
             return new JsonResult(result);
         }
 
+
+        [NeedPermission(AdminPermissions.InventoryOperationLog)]
         public IActionResult OnGetLog(long id)
         {
             var log = _inventoryApplication.GetOperationLog(id);

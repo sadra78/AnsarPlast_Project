@@ -1,0 +1,102 @@
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.deps.json
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\ref\AccountManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.pdb
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.AssemblyReference.cache
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfoInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfo.cs
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CoreCompileInputs.cache
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CopyComplete
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\ref\AccountManagement.Domain.dll
+E:\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.deps.json
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\ref\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\ref\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.deps.json
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\ref\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\ref\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast2\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.deps.json
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\ref\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\ref\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast3\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.deps.json
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\ref\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\ref\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast4\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.deps.json
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\ref\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.AssemblyReference.cache
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfoInputs.cache
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfo.cs
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CoreCompileInputs.cache
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CopyComplete
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\ref\AccountManagement.Domain.dll
+F:\Editable AnsarPlast\AnsarPlast5\Code\AnsarPlast\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.pdb

@@ -2,13 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using _0_Framework.Infrastructure;
 using BlogManagement.Application.Contract.ArticleCategory;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contracts.ProductCategory;
 
 namespace ServiceHost.Areas.Admininstration.Pages.Blog.ArticleCategories
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         public ArticleCategorySearchModel SearchModel;
@@ -20,6 +23,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Blog.ArticleCategories
             _articleCategoryApplication = articleCategoryApplication;
         }
 
+        [NeedPermission(AdminPermissions.ListArticleCategories)]
         public void OnGet(ArticleCategorySearchModel searchModel)
         {
             ArticleCategories = _articleCategoryApplication.Search(searchModel);
@@ -32,6 +36,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Blog.ArticleCategories
 
         }
 
+        [NeedPermission(AdminPermissions.CreateArticleCategory)]
         public JsonResult OnPostCreate(CreateArticleCategory command)
         {
             var result = _articleCategoryApplication.Create(command);
@@ -44,6 +49,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Blog.ArticleCategories
             return Partial("Edit", productCategory);
         }
 
+        [NeedPermission(AdminPermissions.EditArticleCategory)]
         public JsonResult OnPostEdit(EditArticleCategory command)
         {
 

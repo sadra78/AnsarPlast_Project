@@ -1,4 +1,5 @@
 ﻿@page
+@using _0_Framework.Infrastructure
 @model ServiceHost.Areas.Admininstration.Pages.Comments.IndexModel
 @{
 }
@@ -13,7 +14,7 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row" permission="@AdminPermissions.SearchComment">
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -34,7 +35,7 @@
 </div>
 
 
-<div class="row">
+<div class="row" permission="@AdminPermissions.ListComment">
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -81,10 +82,10 @@
                                             }
                                         </td>
                                         <td>
-                                            <a class="btn btn-danger waves-effect waves-light m-b-5" asp-page="./Index" asp-page-handler="Cancel" asp-route-id="@item.Id">کنسل کردن !</a>
+                                            <a permission="@AdminPermissions.CancelComment" class="btn btn-danger waves-effect waves-light m-b-5" asp-page="./Index" asp-page-handler="Cancel" asp-route-id="@item.Id">کنسل کردن !</a>
                                             @if (!item.IsConfirmed || item.IsCanceld)
                                             {
-                                                <a class="btn btn-success waves-effect waves-light m-b-5" asp-page="./Index" asp-page-handler="Confirm" asp-route-id="@item.Id">تایید انتشار !</a>
+                                                <a permission="@AdminPermissions.ConfirmComment" class="btn btn-success waves-effect waves-light m-b-5" asp-page="./Index" asp-page-handler="Confirm" asp-route-id="@item.Id">تایید انتشار !</a>
 
                                             }
                                         </td>

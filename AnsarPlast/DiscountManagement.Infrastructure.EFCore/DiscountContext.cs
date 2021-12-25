@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DiscountManagement.Domain.ColleagueDiscountAgg;
+﻿using DiscountManagement.Domain.ColleagueDiscountAgg;
 using DiscountManagement.Domain.CustomerDiscountAgg;
+using DiscountManagement.Domain.DiscountCodeAgg;
 using DiscountManagement.Infrastructure.EFCore.Mapping;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +10,7 @@ namespace DiscountManagement.Infrastructure.EFCore
     {
         public DbSet<CustomerDiscount> CustomerDiscounts { get; set; }
         public DbSet<ColleagueDiscount> ColleagueDiscounts { get; set; }
+        public DbSet<DiscountCode> DiscountCodes { get; set; }
 
         public DiscountContext(DbContextOptions<DiscountContext> options) : base(options)
         {

@@ -1,15 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using _0_Framework.Infrastructure;
 using BlogManagement.Application.Contract.Article;
 using BlogManagement.Application.Contract.ArticleCategory;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ServiceHost.Areas.Admininstration.Pages.Blog.Articles
 {
+    [Authorize]
     public class CreateModel : PageModel
     {
         public SelectList ArticleCategories;
@@ -23,11 +22,13 @@ namespace ServiceHost.Areas.Admininstration.Pages.Blog.Articles
             _articleApplication = articleApplication;
         }
 
+        [NeedPermission(AdminPermissions.CreateArticle)]
         public void OnGet()
         {
             ArticleCategories = new SelectList(_articleCategoryApplication.GetArticleCategories(), "Id", "Name");
         }
 
+        [NeedPermission(AdminPermissions.CreateArticle)]
         public IActionResult OnPost(CreateArticle command)
         {
             var result = _articleApplication.Create(command);

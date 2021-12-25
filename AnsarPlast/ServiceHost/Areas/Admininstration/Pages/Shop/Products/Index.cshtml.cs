@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
+using _0_Framework.Infrastructure;
 
 namespace ServiceHost.Areas.Admininstration.Pages.Shop.Products
 {
@@ -22,6 +23,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Shop.Products
             _productCategoryApplication = productCategoryApplication;
         }
 
+        [NeedPermission(AdminPermissions.ListProducts)]
         public void OnGet(ProductSearchModel searchModel)
         {
             ProductCategories = new SelectList(_productCategoryApplication.getProductCategories(), "Id", "Name");
@@ -38,7 +40,7 @@ namespace ServiceHost.Areas.Admininstration.Pages.Shop.Products
             return Partial("./Create", command);
 
         }
-
+        [NeedPermission(AdminPermissions.CreateProduct)]
         public JsonResult OnPostCreate(CreateProduct command)
         {
             var result = _productApplication.Create(command);
@@ -52,6 +54,8 @@ namespace ServiceHost.Areas.Admininstration.Pages.Shop.Products
             return Partial("Edit", product);
         }
 
+
+        [NeedPermission(AdminPermissions.EditProduct)]
         public JsonResult OnPostEdit(EditProduct command)
         {
             var result = _productApplication.Edit(command);

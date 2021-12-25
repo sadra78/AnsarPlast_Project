@@ -8,6 +8,7 @@ using CommentManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 
@@ -15,14 +16,14 @@ namespace _01_AnsarPlastQuery.Query
 {
     public class ProductQuery : IProductQuery
     {
-        private readonly ShopContext _context;
+        private readonly ShopContext _shopContext;
         private readonly InventoryContext _inventoryContext;
         private readonly DiscountContext _discountContext;
         private readonly CommentContext _commentContext;
 
-        public ProductQuery(ShopContext context, InventoryContext inventoryContext, DiscountContext discountContext, CommentContext commentContext)
+        public ProductQuery(ShopContext shopContext, InventoryContext inventoryContext, DiscountContext discountContext, CommentContext commentContext)
         {
-            _context = context;
+            _shopContext = shopContext;
             _inventoryContext = inventoryContext;
             _discountContext = discountContext;
             _commentContext = commentContext;
@@ -45,25 +46,25 @@ namespace _01_AnsarPlastQuery.Query
                     x.ProductId,
                     x.EndDate
                 }).ToList();
-            var product = _context.Products
+            var product = _shopContext.Products
                 .Include(x => x.Category)
                 .Include(x => x.ProductPictures)
-                .Select(product => new ProductQueryModel
+                .Select(x => new ProductQueryModel
                 {
-                    Id = product.Id,
-                    Category = product.Category.Name,
-                    Name = product.Name,
-                    Picture = product.Picture,
-                    PictureAlt = product.PictureAlt,
-                    PictureTitle = product.PictureTitle,
-                    Slug = product.Slug,
-                    CategorySlug = product.Category.Slug,
-                    Code = product.Code,
-                    Description = product.Description,
-                    Keyword = product.Keyword,
-                    MetaDescription = product.MetaDescription,
-                    ShortDescription = product.ShortDescription,
-                    Pictures = MapProductPictures(product.ProductPictures)
+                    Id = x.Id,
+                    Category = x.Category.Name,
+                    Name = x.Name,
+                    Picture = x.Picture,
+                    PictureAlt = x.PictureAlt,
+                    PictureTitle = x.PictureTitle,
+                    Slug = x.Slug,
+                    CategorySlug = x.Category.Slug,
+                    Code = x.Code,
+                    Description = x.Description,
+                    Keyword = x.Keyword,
+                    MetaDescription = x.MetaDescription,
+                    ShortDescription = x.ShortDescription,
+                    Pictures = MapProductPictures(x.ProductPictures)
                 }).FirstOrDefault(x => x.Slug == slug);
 
             if (product == null)
@@ -75,11 +76,12 @@ namespace _01_AnsarPlastQuery.Query
                 product.IsInStock = productInventory.InStock;
                 var price = productInventory.UnitPrice;
                 product.Price = price.ToMoney();
+                product.DoublePrice = price;
 
                 var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
                 if (discount != null)
                 {
-                    int discountRate = discount.DiscountRate;
+                    var discountRate = discount.DiscountRate;
                     product.DiscountRate = discountRate;
                     product.DiscountExp_Date = discount.EndDate.ToDiscountFormat();
                     product.HasDiscount = discountRate > 0;
@@ -90,7 +92,7 @@ namespace _01_AnsarPlastQuery.Query
             }
 
             product.Comments = _commentContext.Comments
-                .Where(x => x.Type == CommentsType.Product) 
+                .Where(x => x.Type == CommentsType.Product)
                 .Where(x => x.OwnerRecordId == product.Id)
                 .Where(x => !x.IsCanceld && x.IsConfirmed)
                 .Select(x => new CommentQueryModel
@@ -132,7 +134,7 @@ namespace _01_AnsarPlastQuery.Query
                     x.ProductId,
                 }).ToList();
 
-            var products = _context.Products.Include(x => x.Category).Select(product => new ProductQueryModel
+            var products = _shopContext.Products.Include(x => x.Category).Select(product => new ProductQueryModel
             {
                 Id = product.Id,
                 Category = product.Category.Name,
@@ -164,6 +166,12 @@ namespace _01_AnsarPlastQuery.Query
             return products;
         }
 
+        public int GetProductCount()
+        {
+            return _shopContext.Products.Count();
+        }
+
+
         public List<ProductQueryModel> Search(string value)
         {
             var inventory = _inventoryContext.Inventory.Select(x => new
@@ -179,7 +187,7 @@ namespace _01_AnsarPlastQuery.Query
                     x.ProductId,
                     x.EndDate
                 }).ToList();
-            var query = _context.Products
+            var query = _shopContext.Products
                 .Include(x => x.Category)
                 .Select(x => new ProductQueryModel
                 {
@@ -210,21 +218,31 @@ namespace _01_AnsarPlastQuery.Query
                     product.Price = price.ToMoney();
 
                     var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
-                    if (discount != null)
-                    {
-                        int discountRate = discount.DiscountRate;
-                        product.DiscountRate = discountRate;
-                        product.DiscountExp_Date = discount.EndDate.ToDiscountFormat();
-                        product.HasDiscount = discountRate > 0;
-                        var discountAmount = Math.Round((price * discountRate) / 100);
-                        product.PriceWithDiscount = (price - discountAmount).ToMoney();
-                    }
+                    if (discount == null) continue;
+
+                    var discountRate = discount.DiscountRate;
+                    product.DiscountRate = discountRate;
+                    product.DiscountExp_Date = discount.EndDate.ToDiscountFormat();
+                    product.HasDiscount = discountRate > 0;
+                    var discountAmount = Math.Round((price * discountRate) / 100);
+                    product.PriceWithDiscount = (price - discountAmount).ToMoney();
                 }
             }
 
             return products;
         }
 
+        public List<CartItem> checkInventoryStatus(List<CartItem> cartItems)
+        {
+            var inventory = _inventoryContext.Inventory.ToList();
+            foreach (var cartItem in cartItems.Where(cartItem =>
+                inventory.Any(x => x.ProductId == cartItem.Id && x.InStock)))
+            {
+                var itemInventory = inventory.Find(x => x.ProductId == cartItem.Id);
+                if (itemInventory != null) cartItem.IsInStock = itemInventory.CalculateCurrentCount() >= cartItem.Count;
+            }
 
+            return cartItems;
+        }
     }
 }

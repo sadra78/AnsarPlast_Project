@@ -1,143 +1,93 @@
 ﻿@using System.ComponentModel
 @model List<_01_AnsarPlastQuery.Contracts.ProductCategory.ProductCategoryQueryModel>
-
-<div class="single-row-slider-tab-area section-space">
+<!-- Product tab Area Start -->
+<section class="section ec-product-tab section-space-p">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <!--=======  section title  =======-->
-                <div class="section-title-wrapper text-center section-space--half">
-                    <h2 class="section-title">محصولات ما</h2>
-                    <p class="section-subtitle">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
-                    </p>
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <h2 class="ec-bg-title">دسته بندی های برتر ما</h2>
+                    <h2 class="ec-title">دسته بندی های برتر ما</h2>
+                    <p class="sub-title"> مرور مجموعه ای از محصولات برتر </p>
                 </div>
-                <!--=======  End of section title  =======-->
             </div>
+
+            <!-- Tab Start -->
+            <div class="col-md-12 text-center">
+                <ul class="ec-pro-tab-nav nav justify-content-center">
+                    @foreach (var category in Model)
+                    {
+                        <li class="nav-item"><a class="nav-link @(Model.First() == category ? "active" : "")" data-bs-toggle="tab" href="#tab-pro-for-@category.Id">@category.Name</a></li>
+
+                    }
+                </ul>
+            </div>
+            <!-- Tab End -->
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <!--=======  tab slider wrapper  =======-->
-
-                <div class="tab-slider-wrapper">
-                    <!--=======  tab product navigation  =======-->
-
-                    <div class="tab-product-navigation">
-                        <div class="nav nav-tabs justify-content-center" id="nav-tab2" role="tablist">
-                            @foreach (var category in Model)
+            <div class="col">
+                <div class="tab-content">
+                    <!-- 1st Product tab start -->
+                    @foreach (var category in Model)
+                    {
+                        <div class="tab-pane fade show  @(Model.First() == category ? "active" : "")" id="tab-pro-for-@category.Id">
+                            @foreach (var product in category.Products)
                             {
-                                <a class="nav-item nav-link @(Model.First() == category ? "active" : "")" id="product-tab-@category.Id" data-toggle="tab"
-                                   href="#product-series-@category.Id" role="tab" aria-selected="true">@category.Name</a>
-                            }
-                        </div>
-                    </div>
+                                <div class="row">
+                                    <!-- Product Content -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6  ec-product-content" data-animation="fadeIn">
+                                        <div class="ec-product-inner">
+                                            <div class="ec-pro-image-outer">
+                                                <div class="ec-pro-image">
+                                                    <a href="product-left-sidebar.html" class="image">
+                                                        <img class="main-image" src="~/ProductPictures/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle">
+                                                        <img class="hover-image" src="~/ProductPictures/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle">
+                                                    </a>
+                                                    @if (product.HasDiscount)
+                                                    {
+                                                        <span class="percentage">@product.DiscountRate%</span>
 
-                    <!--=======  End of tab product navigation  =======-->
-                    <!--=======  tab product content  =======-->
-                    <div class="tab-content">
-                        @foreach (var category in Model)
-                        {
-                            <div class="tab-pane fade show @(Model.First() == category ? "active" : "")" id="product-series-@category.Id" role="tabpanel"
-                                 aria-labelledby="product-tab-@category.Id">
-                                <!--=======  single row slider wrapper  =======-->
-                                <div class="single-row-slider-wrapper">
-                                    <div class="ht-slick-slider" data-slick-setting='{
-                                    "slidesToShow": 4,
-                                    "slidesToScroll": 1,
-                                    "arrows": true,
-                                    "autoplay": false,
-                                    "autoplaySpeed": 5000,
-                                    "speed": 1000,
-                                    "infinite": true,
-                                    "rtl": true,
-                                    "prevArrow": {"buttonClass": "slick-prev", "iconClass": "ion-chevron-left" },
-                                    "nextArrow": {"buttonClass": "slick-next", "iconClass": "ion-chevron-right" }
-                                }' data-slick-responsive='[
-                                    {"breakpoint":1501, "settings": {"slidesToShow": 4} },
-                                    {"breakpoint":1199, "settings": {"slidesToShow": 4, "arrows": false} },
-                                    {"breakpoint":991, "settings": {"slidesToShow": 3, "arrows": false} },
-                                    {"breakpoint":767, "settings": {"slidesToShow": 2, "arrows": false} },
-                                    {"breakpoint":575, "settings": {"slidesToShow": 2, "arrows": false} },
-                                    {"breakpoint":479, "settings": {"slidesToShow": 1, "arrows": false} }
-                                ]'>
-                                        @foreach (var product in category.Products)
-                                        {
-
-                                            <div class="col">
-                                                <!--=======  single grid product  =======-->
-                                                <div class="single-grid-product">
-                                                    <div class="single-grid-product__image">
-                                                        @if (product.HasDiscount)
-                                                        {
-                                                            <div class="single-grid-product__lable">
-                                                                <span class="sale">-@product.DiscountRate%</span>
-                                                            </div>
-                                                        }
-                                                        <a asp-page="./ProductDetails" asp-route-id="@product.Slug">
-                                                            <img src="~/ProductPictures/@product.Picture" class="img-fluid"
-                                                                 alt="@product.PictureAlt" title="@product.PictureTitle">
-                                                        </a>
-
-                                                        <div class="hover-icons">
-                                                            <a href="javascript:void(0)"><i class="ion-bag"></i></a>
-                                                            <a href="javascript:void(0)"><i class="ion-heart"></i></a>
-                                                            <a href="javascript:void(0)">
-                                                                <i class="ion-android-options"></i>
-                                                            </a>
-                                                            <a href="javascript:void(0)" data-toggle="modal"
-                                                               data-target="#quick-view-modal-container">
-                                                                <i class="ion-android-open"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="single-grid-product__content">
-                                                        <div class="single-grid-product__category-rating">
-                                                            <span class="category">
-                                                                <a asp-page="./ProductCategory" asp-route-id="@product.CategorySlug">@product.Category</a>
-                                                            </span>
-                                                            <span class="rating">
-                                                                <i class="ion-android-star active"></i>
-                                                                <i class="ion-android-star active"></i>
-                                                                <i class="ion-android-star active"></i>
-                                                                <i class="ion-android-star active"></i>
-                                                                <i class="ion-android-star-outline"></i>
-                                                            </span>
-                                                        </div>
-
-                                                        <h3 class="single-grid-product__title">
-                                                            <a asp-page="./ProductDetails" asp-route-id="@product.Slug">
-                                                                @product.Name
-                                                            </a>
-                                                        </h3>
-                                                        <p class="single-grid-product__price">
-                                                            @if (product.HasDiscount)
-                                                            {
-                                                                <span class="discounted-price">@product.PriceWithDiscount تومان</span>
-                                                                <span class="main-price discounted">@product.Price تومان</span>
-                                                            }
-                                                            else
-                                                            {
-                                                                <span class="main-price">@product.Price تومان</span>
-                                                            }
-
-                                                        </p>
+                                                    }
+                                                    <a href="#" class="quickview" data-link-action="quickview" title="مشاهده" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="~/Theme/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt=""></a>
+                                                    <div class="ec-pro-actions">
+                                                        <a href="compare.html" class="ec-btn-group compare" title="مقایسه"><img src="~/Theme/assets/images/icons/compare.svg" class="svg_img pro_svg" alt=""></a>
+                                                        <button title="افزودن به سبد خرید" class=" add-to-cart"><img src="~/Theme/assets/images/icons/cart.svg" class="svg_img pro_svg" alt=""> افزودن به کارت </button>
+                                                        <a class="ec-btn-group wishlist" title="علاقه مندی"><img src="~/Theme/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt=""></a>
                                                     </div>
                                                 </div>
-                                                <!--=======  End of single grid product  =======-->
                                             </div>
-
-                                        }
+                                            <div class="ec-pro-content">
+                                                <h5 class="ec-pro-title"><a href="@product.Slug"> @product.Name </a></h5>
+                                                <div class="ec-pro-rating">
+                                                    <i class="ecicon eci-star fill"></i>
+                                                    <i class="ecicon eci-star fill"></i>
+                                                    <i class="ecicon eci-star fill"></i>
+                                                    <i class="ecicon eci-star fill"></i>
+                                                    <i class="ecicon eci-star"></i>
+                                                </div>
+                                                @if (product.HasDiscount)
+                                                {
+                                                    <span class="ec-price">
+                                                        <span class="old-price">@product.Price تومان</span>
+                                                        <span class="new-price">@product.PriceWithDiscount تومان</span>
+                                                    </span>
+                                                }
+                                                <span class="ec-price">
+                                                    <span class="new-price">@product.Price تومان</span>
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <!--=======  End of tab product content  =======-->
-                                </div>
-                            </div>
-                        }
 
-                        <!--=======  End of tab slider wrapper  =======-->
-                    </div>
+                                    <div class="col-sm-12 shop-all-btn"><a href="shop-left-sidebar-col-3.html">تمامی کالکشن‌های فروشگاه</a></div>
+                                </div>
+                            }
+                        </div>
+                        <!-- ec 1st Product tab end -->
+                    }
                 </div>
             </div>
         </div>
     </div>
-</div>
-
+</section>
+<!-- ec Product tab Area End -->
