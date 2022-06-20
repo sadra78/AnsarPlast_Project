@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Theme\assets\js\site.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\AdminTheme\assets\css\bootstrap-theme.css.map" />
     <None Include="wwwroot\AdminTheme\assets\css\bootstrap.css.map" />
     <None Include="wwwroot\AdminTheme\assets\js\bootstrap.js" />
@@ -23,6 +27,7 @@
     <None Include="wwwroot\AdminTheme\assets\js\skycons.min.js" />
     <None Include="wwwroot\AdminTheme\assets\js\waves.js" />
     <None Include="wwwroot\AdminTheme\assets\js\wow.min.js" />
+    <None Include="wwwroot\AdminTheme\assets\Sweetalert2\sweetalert2.min.js" />
     <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
     <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
     <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
@@ -48,6 +53,7 @@
     <None Include="wwwroot\lib\jquery\dist\jquery.js" />
     <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
     <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\Theme\assets\js\site.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -63,6 +69,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="LazZiya.TagHelpers" Version="6.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.11" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Language" Version="5.0.0" />
@@ -72,10 +79,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="Nancy" Version="2.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\Theme\" />
+    <PackageReference Include="WebMarkupMin.AspNetCore5" Version="2.11.0" />
   </ItemGroup>
 
 </Project>

@@ -7169,11 +7169,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\01_AnsarPlastQuery\\01_AnsarPlastQuery.csproj",
+      "projectUniqueName": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\01_AnsarPlastQuery\\01_AnsarPlastQuery.csproj",
       "projectName": "01_AnsarPlastQuery",
-      "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\01_AnsarPlastQuery\\01_AnsarPlastQuery.csproj",
+      "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\01_AnsarPlastQuery\\01_AnsarPlastQuery.csproj",
       "packagesPath": "C:\\Users\\Mr.Sadra\\.nuget\\packages\\",
-      "outputPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\01_AnsarPlastQuery\\obj\\",
+      "outputPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\01_AnsarPlastQuery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7193,20 +7193,20 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
             },
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
             },
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
             },
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
             },
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
             }
           }
         }
@@ -7235,7 +7235,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

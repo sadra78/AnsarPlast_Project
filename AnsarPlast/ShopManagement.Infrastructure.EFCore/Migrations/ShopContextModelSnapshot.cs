@@ -68,6 +68,51 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                     b.ToTable("Banners");
                 });
 
+            modelBuilder.Entity("ShopManagement.Domain.OfferBannerAgg.OfferBanner", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("BtnText")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRemoved")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Link")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OfferPicture")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Picture")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PictureAlt")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PictureTitle")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Price")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SubTitle")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("OfferBanners");
+                });
+
             modelBuilder.Entity("ShopManagement.Domain.OrderAgg.Order", b =>
                 {
                     b.Property<long>("Id")
@@ -228,6 +273,39 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                     b.ToTable("ProductCategories");
                 });
 
+            modelBuilder.Entity("ShopManagement.Domain.ProductFeaturesAgg.ProductFeatures", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DisplayName")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<bool>("IsRemoved")
+                        .HasColumnType("bit");
+
+                    b.Property<long>("ProductId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductFeatures");
+                });
+
             modelBuilder.Entity("ShopManagement.Domain.ProductPictureAgg.ProductPicture", b =>
                 {
                     b.Property<long>("Id")
@@ -373,6 +451,17 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("ShopManagement.Domain.ProductFeaturesAgg.ProductFeatures", b =>
+                {
+                    b.HasOne("ShopManagement.Domain.ProductAgg.Product", "Product")
+                        .WithMany("ProductFeatures")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("ShopManagement.Domain.ProductPictureAgg.ProductPicture", b =>
                 {
                     b.HasOne("ShopManagement.Domain.ProductAgg.Product", "Product")
@@ -386,6 +475,8 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
 
             modelBuilder.Entity("ShopManagement.Domain.ProductAgg.Product", b =>
                 {
+                    b.Navigation("ProductFeatures");
+
                     b.Navigation("ProductPictures");
                 });
 

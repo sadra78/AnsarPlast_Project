@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "AdvancedStringBuilder/0.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AdvancedStringBuilder.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AdvancedStringBuilder.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -10,6 +19,18 @@
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
         }
+      },
+      "LazZiya.TagHelpers/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/LazZiya.TagHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/LazZiya.TagHelpers.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Microsoft.AspNetCore.Authentication/2.2.0": {
         "type": "package",
@@ -3172,6 +3193,46 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "WebMarkupMin.AspNet.Common/2.10.0": {
+        "type": "package",
+        "dependencies": {
+          "WebMarkupMin.Core": "2.9.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/WebMarkupMin.AspNet.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/WebMarkupMin.AspNet.Common.dll": {}
+        }
+      },
+      "WebMarkupMin.AspNetCore5/2.11.0": {
+        "type": "package",
+        "dependencies": {
+          "AdvancedStringBuilder": "0.1.0",
+          "WebMarkupMin.AspNet.Common": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/WebMarkupMin.AspNetCore5.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/WebMarkupMin.AspNetCore5.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "WebMarkupMin.Core/2.9.0": {
+        "type": "package",
+        "dependencies": {
+          "AdvancedStringBuilder": "0.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/WebMarkupMin.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/WebMarkupMin.Core.dll": {}
+        }
+      },
       "01_AnsarPlastQuery/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -3699,6 +3760,25 @@
     }
   },
   "libraries": {
+    "AdvancedStringBuilder/0.1.0": {
+      "sha512": "IbN3r5whlJvi8MhCDPVpIb+NVScyUcKSdcJZrnoXFDyzPDISl3AbWouNBYIHRdZdfGuzqCQEhM1vkxbIKqQVaQ==",
+      "type": "package",
+      "path": "advancedstringbuilder/0.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "advancedstringbuilder.0.1.0.nupkg.sha512",
+        "advancedstringbuilder.nuspec",
+        "lib/net40-client/AdvancedStringBuilder.dll",
+        "lib/net40-client/AdvancedStringBuilder.xml",
+        "lib/net45/AdvancedStringBuilder.dll",
+        "lib/net45/AdvancedStringBuilder.xml",
+        "lib/netstandard1.0/AdvancedStringBuilder.dll",
+        "lib/netstandard1.0/AdvancedStringBuilder.xml",
+        "lib/netstandard2.0/AdvancedStringBuilder.dll",
+        "lib/netstandard2.0/AdvancedStringBuilder.xml"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -3713,6 +3793,33 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "LazZiya.TagHelpers/6.0.1": {
+      "sha512": "sgwj5g21y/SouMdjrvVY83XE1hr0hvVvcD+f7Cc9p7/cxvrsTvWNQemx7vhpaxNGN2B6TjvnMiyzFaJ7aJ+zjQ==",
+      "type": "package",
+      "path": "lazziya.taghelpers/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lazziya.taghelpers.6.0.1.nupkg.sha512",
+        "lazziya.taghelpers.nuspec",
+        "lib/net5.0/LazZiya.TagHelpers.dll",
+        "lib/net5.0/LazZiya.TagHelpers.xml",
+        "lib/net6.0/LazZiya.TagHelpers.dll",
+        "lib/net6.0/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp2.0/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp2.0/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp2.1/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp2.1/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp2.2/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp2.2/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp3.0/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp3.0/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp3.1/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp3.1/LazZiya.TagHelpers.xml",
+        "license.txt"
       ]
     },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
@@ -10449,6 +10556,72 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "WebMarkupMin.AspNet.Common/2.10.0": {
+      "sha512": "QmsjcOQkUQ7kEqzMEXuvVrcBu90B7tfPe177PdoAroakgvAhu/kJf96Pn0OSwVWXx4d8gNjFNYhMbg1ghYYPzw==",
+      "type": "package",
+      "path": "webmarkupmin.aspnet.common/2.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "icon.png",
+        "lib/net40/WebMarkupMin.AspNet.Common.dll",
+        "lib/net40/WebMarkupMin.AspNet.Common.xml",
+        "lib/net45/WebMarkupMin.AspNet.Common.dll",
+        "lib/net45/WebMarkupMin.AspNet.Common.xml",
+        "lib/netcoreapp2.1/WebMarkupMin.AspNet.Common.dll",
+        "lib/netcoreapp2.1/WebMarkupMin.AspNet.Common.xml",
+        "lib/netstandard1.3/WebMarkupMin.AspNet.Common.dll",
+        "lib/netstandard1.3/WebMarkupMin.AspNet.Common.xml",
+        "lib/netstandard2.0/WebMarkupMin.AspNet.Common.dll",
+        "lib/netstandard2.0/WebMarkupMin.AspNet.Common.xml",
+        "lib/netstandard2.1/WebMarkupMin.AspNet.Common.dll",
+        "lib/netstandard2.1/WebMarkupMin.AspNet.Common.xml",
+        "readme.txt",
+        "webmarkupmin.aspnet.common.2.10.0.nupkg.sha512",
+        "webmarkupmin.aspnet.common.nuspec"
+      ]
+    },
+    "WebMarkupMin.AspNetCore5/2.11.0": {
+      "sha512": "cF/XYaZaXBHhRvJtHD3ymkYdyxT0n2E3zETucLEQQOkWA1VvX35dINIBfggxMG/nXjEKnIxp5Dz/Fg58zhwazA==",
+      "type": "package",
+      "path": "webmarkupmin.aspnetcore5/2.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "icon.png",
+        "lib/net5.0/WebMarkupMin.AspNetCore5.dll",
+        "lib/net5.0/WebMarkupMin.AspNetCore5.xml",
+        "readme.txt",
+        "webmarkupmin.aspnetcore5.2.11.0.nupkg.sha512",
+        "webmarkupmin.aspnetcore5.nuspec"
+      ]
+    },
+    "WebMarkupMin.Core/2.9.0": {
+      "sha512": "FlEMQbamh/L6nYa4A7coH0X3G6IynOM7q+/3Wub7Y4DVGyOEXHQbUHkvJ61RXtFnT9tagfzsn1iiSm3VoOumzw==",
+      "type": "package",
+      "path": "webmarkupmin.core/2.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "icon.png",
+        "lib/net40-client/WebMarkupMin.Core.dll",
+        "lib/net40-client/WebMarkupMin.Core.xml",
+        "lib/net45/WebMarkupMin.Core.dll",
+        "lib/net45/WebMarkupMin.Core.xml",
+        "lib/netstandard1.3/WebMarkupMin.Core.dll",
+        "lib/netstandard1.3/WebMarkupMin.Core.xml",
+        "lib/netstandard2.0/WebMarkupMin.Core.dll",
+        "lib/netstandard2.0/WebMarkupMin.Core.xml",
+        "lib/netstandard2.1/WebMarkupMin.Core.dll",
+        "lib/netstandard2.1/WebMarkupMin.Core.xml",
+        "readme.txt",
+        "webmarkupmin.core.2.9.0.nupkg.sha512",
+        "webmarkupmin.core.nuspec"
+      ]
+    },
     "01_AnsarPlastQuery/1.0.0": {
       "type": "project",
       "path": "../01_AnsarPlastQuery/01_AnsarPlastQuery.csproj",
@@ -10634,6 +10807,7 @@
       "DiscountManagement.Configuration >= 1.0.0",
       "InventoryManagement.Infrastructure.Configuration >= 1.0.0",
       "InventoryManagement.Presentation.Api >= 1.0.0",
+      "LazZiya.TagHelpers >= 6.0.1",
       "Microsoft.AspNetCore.Mvc.Abstractions >= 2.2.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.11",
       "Microsoft.AspNetCore.Razor.Language >= 5.0.0",
@@ -10641,7 +10815,8 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
       "Nancy >= 2.0.0",
       "ShopManagement.Configuration >= 1.0.0",
-      "ShopManagement.Presentation.Api >= 1.0.0"
+      "ShopManagement.Presentation.Api >= 1.0.0",
+      "WebMarkupMin.AspNetCore5 >= 2.11.0"
     ]
   },
   "packageFolders": {
@@ -10651,11 +10826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\ServiceHost\\ServiceHost.csproj",
+      "projectUniqueName": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\ServiceHost\\ServiceHost.csproj",
       "projectName": "ServiceHost",
-      "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\ServiceHost\\ServiceHost.csproj",
+      "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\ServiceHost\\ServiceHost.csproj",
       "packagesPath": "C:\\Users\\Mr.Sadra\\.nuget\\packages\\",
-      "outputPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\ServiceHost\\obj\\",
+      "outputPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\ServiceHost\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10675,32 +10850,32 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\AccountManagement.Infrastructure.Configuration\\AccountManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\AccountManagement.Infrastructure.Configuration\\AccountManagement.Infrastructure.Configuration.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\AccountManagement.Infrastructure.Configuration\\AccountManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\AccountManagement.Infrastructure.Configuration\\AccountManagement.Infrastructure.Configuration.csproj"
             },
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj"
             },
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj"
             },
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj"
             },
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
             },
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj"
             },
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj"
             },
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
             },
-            "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\ShopManagement.Presentation.Api\\ShopManagement.Presentation.Api.csproj": {
-              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\ShopManagement.Presentation.Api\\ShopManagement.Presentation.Api.csproj"
+            "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\ShopManagement.Presentation.Api\\ShopManagement.Presentation.Api.csproj": {
+              "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\ShopManagement.Presentation.Api\\ShopManagement.Presentation.Api.csproj"
             }
           }
         }
@@ -10715,6 +10890,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "LazZiya.TagHelpers": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
           "Microsoft.AspNetCore.Mvc.Abstractions": {
             "target": "Package",
             "version": "[2.2.0, )"
@@ -10740,6 +10919,10 @@
           "Nancy": {
             "target": "Package",
             "version": "[2.0.0, )"
+          },
+          "WebMarkupMin.AspNetCore5": {
+            "target": "Package",
+            "version": "[2.11.0, )"
           }
         },
         "imports": [
@@ -10760,7 +10943,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

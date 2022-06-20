@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <Folder Include="Contracts\Banner\" />
+    <Folder Include="Contracts\OfferBanner\" />
   </ItemGroup>
 
 </Project>

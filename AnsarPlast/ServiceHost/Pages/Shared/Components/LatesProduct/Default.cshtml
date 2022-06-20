@@ -1,63 +1,65 @@
 ﻿@model List<_01_AnsarPlastQuery.Contracts.Product.ProductQueryModel>
-    <section class="section ec-new-product section-space-p">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="section-title">
-                        <h2 class="ec-bg-title">جدید ترین محصولات</h2>
-                        <h2 class="ec-title">جدید ترین محصولات</h2>
-                        <p class="sub-title"> مرور مجموعه ای از محصولات برتر و جدید</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- New Product Content -->
-                @foreach (var item in Model)
-                {
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6  ec-product-content" data-animation="flipInY">
-                        <div class="ec-product-inner">
-                            <div class="ec-pro-image-outer">
-                                <div class="ec-pro-image">
-                                    <a href="product-left-sidebar.html" class="image">
-                                        <img class="main-image" src="~/ProductPictures/@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle">
-                                        <img class="hover-image" src="~/Theme/assets/images/product-image/9_2.jpg" alt="Product">
-                                    </a>
-                                    <span class="flags">
-                                        <span class="sale">جدید</span>
-                                    </span>
-                                    <a href="#" class="quickview" data-link-action="quickview" title="مشاهده" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="~/Theme/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt=""></a>
-                                    <div class="ec-pro-actions">
-                                        <a href="compare.html" class="ec-btn-group compare" title="مقایسه"><img src="~/Theme/assets/images/icons/compare.svg" class="svg_img pro_svg" alt=""></a>
-                                        <button title="افزودن به سبد خرید" class=" add-to-cart"><img src="~/Theme/assets/images/icons/cart.svg" class="svg_img pro_svg" alt=""> افزودن به سبد خرید</button>
-                                        <a class="ec-btn-group wishlist" title="علاقه مندی"><img src="~/Theme/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ec-pro-content">
-                                <h5 class="ec-pro-title"><a href="@item.Slug">@item.Name</a></h5>
-                                <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star"></i>
-                                </div>
-                                @if (item.HasDiscount)
-                                {
-                                    <span class="ec-price">
-                                        <span class="old-price">@item.Price تومان</span>
-                                        <span class="new-price">@item.PriceWithDiscount تومان</span>
-                                    </span>
-                                }
-                                <span class="new-price">@item.Price تومان</span>
-                            </div>
-                        </div>
-                    </div>
-
-                }
-                <div class="col-sm-12 shop-all-btn">
-                    <a href="shop-left-sidebar-col-3.html">تمامی کالکشن‌های فروشگاه</a>
+<section class="section ec-new-product section-space-p">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <h2 class="ec-bg-title">جدید ترین محصولات</h2>
+                    <h2 class="ec-title">جدید ترین محصولات</h2>
+                    <p class="sub-title"> مرور مجموعه ای از محصولات برتر و جدید</p>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <!-- New Product Content -->
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6  ec-product-content" data-animation="flipInY">
+                    <div class="ec-product-inner">
+                        <div class="ec-pro-image-outer">
+                            <div class="ec-pro-image">
+                                <a href="product-left-sidebar.html" class="image">
+                                    <img class="main-image" src="~/ProductPictures/@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle">
+                                </a>
+                                <span class="flags">
+                                    <span class="sale">جدید</span>
+                                </span>
+                                <a href="#" class="quickview" data-link-action="quickview" title="مشاهده" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="~/Theme/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt=""></a>
+                                <div class="ec-pro-actions">
+                                    <a href="compare.html" class="ec-btn-group compare" title="مقایسه"><img src="~/Theme/assets/images/icons/compare.svg" class="svg_img pro_svg" alt=""></a>
+                                    <button title="افزودن به سبد خرید" class=" add-to-cart"><img src="~/Theme/assets/images/icons/cart.svg" class="svg_img pro_svg" alt=""> افزودن به سبد خرید</button>
+                                    <a class="ec-btn-group wishlist" title="علاقه مندی" onclick="addToWishList('@item.Id','@item.Name','@item.DoublePrice','@item.Picture','@item.Slug')"><img src="~/Theme/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ec-pro-content">
+                            <h5 class="ec-pro-title"><a href="@item.Slug">@item.Name</a></h5>
+                            <div class="ec-pro-rating">
+                                <i class="ecicon eci-star fill"></i>
+                                <i class="ecicon eci-star fill"></i>
+                                <i class="ecicon eci-star fill"></i>
+                                <i class="ecicon eci-star fill"></i>
+                                <i class="ecicon eci-star"></i>
+                            </div>
+                            @if (item.HasDiscount)
+                            {
+                                <span class="ec-price">
+                                    <span class="old-price">@item.Price تومان</span>
+                                    <span class="new-price">@item.PriceWithDiscount تومان</span>
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="ec-price">
+                                    <span class="new-price">@item.Price تومان</span>
+                                </span>
+                            }
+
+                        </div>
+                    </div>
+                </div>
+
+            }
+        </div>
+    </div>
+</section>

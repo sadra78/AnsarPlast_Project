@@ -73,6 +73,25 @@ namespace ShopManagement.Configuration.Permissions
                         new PermissionDto(AdminPermissions.DeleteBanner,"حذف بنر"),
                     }
                 },
+                {
+                    "OfferBanners", new List<PermissionDto>
+                    {
+                        new PermissionDto(AdminPermissions.ListOfferBanner,"لیست بنر تخفیف"),
+                        new PermissionDto(AdminPermissions.SearchOfferBanner,"جستجو بنر تخفیف"),
+                        new PermissionDto(AdminPermissions.CreateOfferBanner,"ایجاد بنر تخفیف"),
+                        new PermissionDto(AdminPermissions.EditOfferBanner,"ویرایش بنر تخفیف"),
+                        new PermissionDto(AdminPermissions.DeleteOfferBanner,"حذف بنر تخفیف"),
+                    }
+                },
+                {
+                    "ProductFeatures", new List<PermissionDto>
+                    {
+                        new PermissionDto(AdminPermissions.ListProductFeatures,"لیست جزئیات محصول"),
+                        new PermissionDto(AdminPermissions.CreateProductFeatures,"ایجاد جزئیات محصول"),
+                        new PermissionDto(AdminPermissions.EditProductFeatures,"ویرایش جزئیات محصول"),
+                        new PermissionDto(AdminPermissions.DeleteProductFeatures,"حذف جزئیات محصول"),
+                    }
+                },
             };
         }
     }

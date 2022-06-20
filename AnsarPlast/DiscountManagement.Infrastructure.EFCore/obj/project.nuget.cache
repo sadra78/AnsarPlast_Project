@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1I+V5gupLiZkDnCnfd4k5B8MuAAL1CnO8ZEWF3dA9BJiXCgW4RtrOa6fx3oPf4/S6vLPQ2Xnt6WFEsA70ytsxg==",
+  "dgSpecHash": "ueqsKXXOToieQO67YMcxzuO+ImR84SxDpMmVLZI+bWFdbKjhUJ1KCO/SUT0hq5Fv8VKQaRNjT5yx+mIqT+/0nA==",
   "success": true,
-  "projectFilePath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+  "projectFilePath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mr.Sadra\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

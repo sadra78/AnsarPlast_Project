@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jswoM9opO7he2xRLrpT/8fNiftjqcZH4VusaONYdilX9PI+SMf71yFQKdnbWkOwPlx37jo1brGKjqrOC/3BExQ==",
+  "dgSpecHash": "GOCnlXsplurYl1J5DmFhHsoWcNntHVMIPM9mJd129PCeQW305l/2qCHB0a6/OKb8jlmiqZbikvn9XDsO+/klYw==",
   "success": true,
-  "projectFilePath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+  "projectFilePath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

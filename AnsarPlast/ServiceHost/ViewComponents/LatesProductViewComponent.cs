@@ -1,4 +1,5 @@
-﻿using _01_AnsarPlastQuery.Contracts.Product;
+﻿using System.Linq;
+using _01_AnsarPlastQuery.Contracts.Product;
 using _01_AnsarPlastQuery.Contracts.ProductCategory;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,7 +16,7 @@ namespace ServiceHost.ViewComponents
 
         public IViewComponentResult Invoke()
         {
-            var latesProducts = _productQuery.GetLatesProducts();
+            var latesProducts = _productQuery.GetLatesProducts().Where(x=>x.Price != null).ToList();
             return View(latesProducts);
         }
     }

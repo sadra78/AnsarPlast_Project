@@ -30,7 +30,7 @@ namespace ServiceHost
 
             var accountPermissions = _authHelper.GetPermissions();
             if (accountPermissions.All(x => x != handlerPermission.Permission))
-                context.HttpContext.Response.Redirect("/Account");
+                context.HttpContext.Response.Redirect("./Index");
         }
 
         public void OnPageHandlerExecuted(PageHandlerExecutedContext context)

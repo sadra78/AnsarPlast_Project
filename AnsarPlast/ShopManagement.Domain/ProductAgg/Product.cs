@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ShopManagement.Domain.ProductCategoryAgg;
+using ShopManagement.Domain.ProductFeaturesAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 
 namespace ShopManagement.Domain.ProductAgg
@@ -23,6 +24,7 @@ namespace ShopManagement.Domain.ProductAgg
         public string MetaDescription { get; private set; }
         public string Slug { get; private set; }
         public List<ProductPicture> ProductPictures { get; private set; }
+        public List<ProductFeatures> ProductFeatures { get; private set; }
 
         public ProductCategory Category { get; set; }
 

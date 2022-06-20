@@ -9,6 +9,7 @@ using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Order;
+using ShopManagement.Domain.ProductFeaturesAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 
@@ -49,6 +50,7 @@ namespace _01_AnsarPlastQuery.Query
             var product = _shopContext.Products
                 .Include(x => x.Category)
                 .Include(x => x.ProductPictures)
+                .Include(x=>x.ProductFeatures)
                 .Select(x => new ProductQueryModel
                 {
                     Id = x.Id,
@@ -64,7 +66,9 @@ namespace _01_AnsarPlastQuery.Query
                     Keyword = x.Keyword,
                     MetaDescription = x.MetaDescription,
                     ShortDescription = x.ShortDescription,
-                    Pictures = MapProductPictures(x.ProductPictures)
+                    Pictures = MapProductPictures(x.ProductPictures),
+                    Features = MapProductFeatures(x.ProductFeatures),
+
                 }).FirstOrDefault(x => x.Slug == slug);
 
             if (product == null)
@@ -105,6 +109,17 @@ namespace _01_AnsarPlastQuery.Query
                 .ToList();
 
             return product;
+        }
+
+        private static List<ProductFeaturesQueryModel> MapProductFeatures(List<ProductFeatures> productFeatures)
+        {
+            return productFeatures.Select(x => new ProductFeaturesQueryModel
+            {
+                ProductId = x.ProductId,
+                DisplayName = x.DisplayName,
+                Value = x.Value,
+                IsRemoved = x.IsRemoved
+            }).Where(x => !x.IsRemoved).ToList();
         }
 
         private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> pictures)
@@ -162,6 +177,7 @@ namespace _01_AnsarPlastQuery.Query
                         product.PriceWithDiscount = (price - discountAmount).ToMoney();
                     }
                 }
+
             }
             return products;
         }
@@ -243,6 +259,18 @@ namespace _01_AnsarPlastQuery.Query
             }
 
             return cartItems;
+        }
+
+        public List<Wishlist> GetDetailsWishlist(List<Wishlist> wishLists)
+        {
+            var discount = _discountContext.CustomerDiscounts.Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now).ToList();
+            foreach (var wishList in wishLists.Where(wishList => discount.Any(x => x.ProductId == wishList.Id)))
+            {
+                var itemDiscount = discount.Find(x => x.ProductId == wishList.Id);
+                if (itemDiscount != null) wishList.DiscountRate = itemDiscount.DiscountRate;
+            }
+
+            return wishLists;
         }
     }
 }

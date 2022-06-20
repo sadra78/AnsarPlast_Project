@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c0kFOljD/PO+pgrA9TWm5UmiFeI5NV7bJuglTdpdzpTpCiA5QZ75cNUosIS19xrd43ISoB3krrd4Um1P13f2qw==",
+  "dgSpecHash": "U33DUZGCmf/PRlRAPUzn+TIyHFopRN+1G7EsIqdWmOun4RHmn0ZHcU6IUyP5x93H+t2x55WDNVwRcYj6OUnEoQ==",
   "success": true,
-  "projectFilePath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
+  "projectFilePath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

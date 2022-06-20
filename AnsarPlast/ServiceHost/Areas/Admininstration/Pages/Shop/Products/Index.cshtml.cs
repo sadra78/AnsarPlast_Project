@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
 using _0_Framework.Infrastructure;
+using ShopManagement.Application.Contracts.ProductFeatures;
 
 namespace ServiceHost.Areas.Admininstration.Pages.Shop.Products
 {
@@ -17,10 +18,12 @@ namespace ServiceHost.Areas.Admininstration.Pages.Shop.Products
         private readonly IProductApplication _productApplication;
         private readonly IProductCategoryApplication _productCategoryApplication;
 
+
         public IndexModel(IProductApplication productApplication, IProductCategoryApplication productCategoryApplication)
         {
             _productApplication = productApplication;
             _productCategoryApplication = productCategoryApplication;
+            _productApplication = productApplication;
         }
 
         [NeedPermission(AdminPermissions.ListProducts)]
@@ -61,5 +64,6 @@ namespace ServiceHost.Areas.Admininstration.Pages.Shop.Products
             var result = _productApplication.Edit(command);
             return new JsonResult(result);
         }
+
     }
 }

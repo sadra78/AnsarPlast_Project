@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using _0_Framework.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -44,7 +45,6 @@ namespace ServiceHost.Areas.Admininstration.Pages.Shop.ProductPictures
             var result = _productPictureApplication.Create(command);
             return new JsonResult(result);
         }
-
         public IActionResult OnGetEdit(long id)
         {
             var productPicture = _productPictureApplication.GetDetails(id);

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using ShopManagement.Application.Contracts.Order;
 
 namespace _01_AnsarPlastQuery.Contracts.Product
@@ -14,5 +10,6 @@ namespace _01_AnsarPlastQuery.Contracts.Product
         int GetProductCount();
         List<ProductQueryModel> Search(string value);
         List<CartItem> checkInventoryStatus(List<CartItem> cartItems);
+        List<Wishlist> GetDetailsWishlist(List<Wishlist> wishLists);
     }
 }

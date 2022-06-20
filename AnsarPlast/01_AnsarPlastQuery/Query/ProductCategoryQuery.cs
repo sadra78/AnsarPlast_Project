@@ -124,6 +124,7 @@ namespace _01_AnsarPlastQuery.Query
                     if (productInventory != null)
                     {
                         var price = productInventory.UnitPrice;
+                        product.DoublePrice = price;
                         product.Price = price.ToMoney();
 
                         var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);

@@ -29,5 +29,6 @@ namespace _01_AnsarPlastQuery.Contracts.Product
         public bool IsInStock { get; set; }
         public List<CommentQueryModel> Comments { get; set; }
         public List<ProductPictureQueryModel> Pictures { get; set; }
+        public List<ProductFeaturesQueryModel> Features { get; set; }
     }
 }

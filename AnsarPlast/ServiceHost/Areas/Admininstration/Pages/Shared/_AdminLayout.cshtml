@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Coderthemes">
 
-    <link rel="shortcut icon" href="images/favicon_1.ico">
+    <link rel="shortcut icon" href="~/AdminTheme/assets/images/favicon_1.ico">
 
     <title>@ViewData["Title"] | AnsarPlast Shop</title>
     <meta name="keywords" content="" />
@@ -26,8 +26,10 @@
     <!-- Waves-effect -->
     <link href="~/AdminTheme/assets/css/waves-effect.css" rel="stylesheet">
     <link href="~/AdminTheme/assets/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+
     <!-- sweet alerts -->
     <link href="~/AdminTheme/assets/sweet-alert/sweet-alert.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/AdminTheme/assets/Sweetalert2/sweetalert2.min.css">
 
 
     <!-- Persian DatePicker -->
@@ -37,7 +39,9 @@
     @RenderSection("Css", false)
     <link href="~/AdminTheme/assets/css/helper.css" rel="stylesheet" type="text/css" />
     <link href="~/AdminTheme/assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/AdminTheme/assets/magnific-popup/magnific-popup.css" />
     <script src="~/AdminTheme/assets/js/modernizr.min.js"></script>
+
 
 
 </head>
@@ -52,7 +56,12 @@
             <!-- LOGO -->
             <div class="topbar-left">
                 <div class="text-center">
-                    <a href="index.html" class="logo"> <span>Ansar Plast </span> <i class="md md-terrain"></i></a>
+                    <a asp-page="/Index" class="logo">
+                        <span>Ansar Plast </span>
+                        <i>
+                            <img src="~/AdminTheme/assets/images/favicon_1.ico" width="60" height="60" />
+                        </i>
+                    </a>
                 </div>
             </div>
             <!-- Button mobile view to collapse sidebar menu -->
@@ -125,6 +134,8 @@
     <!-- sweet alerts -->
     <script src="~/AdminTheme/assets/sweet-alert/sweet-alert.min.js"></script>
     <script src="~/AdminTheme/assets/sweet-alert/sweet-alert.init.js"></script>
+    <script src="~/AdminTheme/assets/Sweetalert2/sweetalert2.min.js"></script>
+    <script src="~/AdminTheme/assets/Sweetalert2/sweetalert2.all.min.js"></script>
 
     <!-- flot Chart -->
     <script src="~/AdminTheme/assets/flot-chart/jquery.flot.js"></script>
@@ -162,7 +173,7 @@
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
     @RenderSection("Scripts", false)
@@ -173,7 +184,9 @@
             initialValueType: "persian"
         });
     </script>
-    <script src="https://cdn.tiny.cloud/1/bq7grdgu48sszur1520qk2yspxx0251dmzmam9l3lpcpw3ix/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <script>
         tinymce.init({
             selector: '#BodyContent',

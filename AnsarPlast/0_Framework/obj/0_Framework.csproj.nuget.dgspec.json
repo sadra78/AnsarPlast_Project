@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\0_Framework\\0_Framework.csproj": {}
+    "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\0_Framework\\0_Framework.csproj": {}
   },
   "projects": {
-    "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\0_Framework\\0_Framework.csproj": {
+    "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\0_Framework\\0_Framework.csproj",
+        "projectPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Mr.Sadra\\.nuget\\packages\\",
-        "outputPath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\0_Framework\\obj\\",
+        "outputPath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

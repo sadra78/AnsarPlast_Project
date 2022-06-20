@@ -19,6 +19,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using ShopManagement.Configuration;
 using ShopManagement.Presentation.Api;
+using WebMarkupMin.AspNetCore5;
 
 namespace ServiceHost
 {
@@ -34,6 +35,11 @@ namespace ServiceHost
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddWebMarkupMin()
+                .AddHtmlMinification()
+                .AddHttpCompression()
+                .AddXmlMinification()
+                .AddXhtmlMinification();
             services.AddHttpContextAccessor();
 
             var connectionString = Configuration.GetConnectionString("AnsarPlastDB");
@@ -63,8 +69,8 @@ namespace ServiceHost
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
                 {
-                    o.LoginPath = new PathString("/Account");
-                    o.LogoutPath = new PathString("/Account");
+                    o.LoginPath = new PathString("/Index");
+                    o.LogoutPath = new PathString("/Index");
                     o.AccessDeniedPath = new PathString("/AccessDenied");
                 });
 
@@ -109,6 +115,8 @@ namespace ServiceHost
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseWebMarkupMin();
 
             app.UseAuthentication();
 

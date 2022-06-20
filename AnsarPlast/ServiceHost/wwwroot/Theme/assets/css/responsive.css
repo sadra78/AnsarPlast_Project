@@ -11,6 +11,7 @@
     Responsive
 -----------------------------------------------------------------------------------*/
 /*-----  Responsive Media Quary  -----*/
+
 @media only screen and (max-width: 1449px) and (min-width: 1200px) {
   .footer-bottom .ec-copy {
     font-size: 14px;
@@ -213,9 +214,10 @@
     padding: 35px 0;
   }
 
-  .section-space-pb {
-    padding-bottom: 35px;
-  }
+    .section-space-pb {
+        padding-bottom: 35px;
+        transform: scaleX(-1);
+    }
 
   .section-space-pt {
     padding-top: 35px;
@@ -665,9 +667,9 @@
     padding: 30px 0;
   }
 
-  .section-space-pb {
-    padding-bottom: 30px;
-  }
+    .section-space-pb {
+        padding-bottom: 30px;
+    }
 
   .section-space-pt {
     padding-top: 30px;
@@ -1449,9 +1451,10 @@
     padding: 25px 0;
   }
 
-  .section-space-pb {
-    padding-bottom: 25px;
-  }
+    .section-space-pb {
+        padding-bottom: 25px;
+        transform: scaleX(-1);
+    }
 
   .section-space-pt {
     padding-top: 25px;

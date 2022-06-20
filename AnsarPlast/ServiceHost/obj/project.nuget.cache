@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hLPDdKNH2fhuy8ow3Tt/Yt017DhDx6L9Ic/joqmHGiDh1qa7VsNuOeyLwYVXPd7MZ1AZw8+DbkZZVTkQ7MJkJA==",
+  "dgSpecHash": "z8QfA+xoZ0j0f5EfTikskiC05tDWa4uvl39bFr1Ypjgcdd+1Bx6iIrSw0fNcEZLQgWl9uzyQfLTosmJKiezkbg==",
   "success": true,
-  "projectFilePath": "F:\\Editable AnsarPlast\\AnsarPlast6\\Code\\AnsarPlast\\ServiceHost\\ServiceHost.csproj",
+  "projectFilePath": "F:\\Editable AnsarPlast\\AnsarPlast10\\Code\\AnsarPlast\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mr.Sadra\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Mr.Sadra\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Mr.Sadra\\.nuget\\packages\\lazziya.taghelpers\\6.0.1\\lazziya.taghelpers.6.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
@@ -199,7 +201,10 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Mr.Sadra\\.nuget\\packages\\webmarkupmin.aspnet.common\\2.10.0\\webmarkupmin.aspnet.common.2.10.0.nupkg.sha512",
+    "C:\\Users\\Mr.Sadra\\.nuget\\packages\\webmarkupmin.aspnetcore5\\2.11.0\\webmarkupmin.aspnetcore5.2.11.0.nupkg.sha512",
+    "C:\\Users\\Mr.Sadra\\.nuget\\packages\\webmarkupmin.core\\2.9.0\\webmarkupmin.core.2.9.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -28,6 +28,7 @@ namespace ShopManagement.Application
             return operation.Succedded();
         }
 
+
         public OperationResult Edit(EditBanner command)
         {
             var operation = new OperationResult();

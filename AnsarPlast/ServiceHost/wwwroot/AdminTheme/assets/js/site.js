@@ -196,6 +196,7 @@ jQuery.validator.addMethod("maxFileSize",
     });
 jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
 
+
 //jQuery.validator.addMethod("maxFileSize",
 //    function (value, element, params) {
 //        var size = element.files[0].size;

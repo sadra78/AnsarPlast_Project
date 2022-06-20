@@ -31,57 +31,64 @@
                     @foreach (var category in Model)
                     {
                         <div class="tab-pane fade show  @(Model.First() == category ? "active" : "")" id="tab-pro-for-@category.Id">
-                            @foreach (var product in category.Products)
-                            {
-                                <div class="row">
-                                    <!-- Product Content -->
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6  ec-product-content" data-animation="fadeIn">
-                                        <div class="ec-product-inner">
-                                            <div class="ec-pro-image-outer">
-                                                <div class="ec-pro-image">
-                                                    <a href="product-left-sidebar.html" class="image">
-                                                        <img class="main-image" src="~/ProductPictures/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle">
-                                                        <img class="hover-image" src="~/ProductPictures/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle">
-                                                    </a>
-                                                    @if (product.HasDiscount)
-                                                    {
-                                                        <span class="percentage">@product.DiscountRate%</span>
+                            <div class="row">
+                                @foreach (var product in category.Products)
+                                {
+                                    if (product.Price != null)
+                                    {<!-- Product Content -->
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6  ec-product-content" data-animation="fadeIn">
+                                            <div class="ec-product-inner">
+                                                <div class="ec-pro-image-outer">
+                                                    <div class="ec-pro-image">
+                                                        <a asp-page="./ProductDetail" asp-route-id="@product.Slug" class="image">
+                                                            <img class="main-image" src="~/ProductPictures/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle">
+                                                            <img class="hover-image" src="~/ProductPictures/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle">
+                                                        </a>
+                                                        @if (product.HasDiscount)
+                                                        {
+                                                            <span class="percentage">@product.DiscountRate%</span>
 
-                                                    }
-                                                    <a href="#" class="quickview" data-link-action="quickview" title="مشاهده" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="~/Theme/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt=""></a>
-                                                    <div class="ec-pro-actions">
-                                                        <a href="compare.html" class="ec-btn-group compare" title="مقایسه"><img src="~/Theme/assets/images/icons/compare.svg" class="svg_img pro_svg" alt=""></a>
-                                                        <button title="افزودن به سبد خرید" class=" add-to-cart"><img src="~/Theme/assets/images/icons/cart.svg" class="svg_img pro_svg" alt=""> افزودن به کارت </button>
-                                                        <a class="ec-btn-group wishlist" title="علاقه مندی"><img src="~/Theme/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt=""></a>
+                                                        }
+                                                        <a href="#showmodal=@Url.Page("./Index", "PartialProductDetail", new { slug = product.Slug})" class="quickview"  title="مشاهده"><img src="~/Theme/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt=""></a>
+
+                                                        <div class="ec-pro-actions">
+                                                            <a href="compare.html" class="ec-btn-group compare" title="مقایسه"><img src="~/Theme/assets/images/icons/compare.svg" class="svg_img pro_svg" alt=""></a>
+                                                            <button title="افزودن به سبد خرید" class="add-to-cart" onclick="addToCart('@product.Id', '@product.Name', '@product.DoublePrice', '@product.Picture')"><img src="~/Theme/assets/images/icons/cart.svg" class="svg_img pro_svg" alt=""> افزودن به کارت </button>
+                                                            <input type="hidden" value="1" id="productCount" />
+                                                            <a class="ec-btn-group wishlist" title="علاقه مندی" onclick="addToWishList('@product.Id','@product.Name','@product.DoublePrice','@product.Picture','@product.Slug')"><img src="~/Theme/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt=""></a>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="ec-pro-content">
-                                                <h5 class="ec-pro-title"><a href="@product.Slug"> @product.Name </a></h5>
-                                                <div class="ec-pro-rating">
-                                                    <i class="ecicon eci-star fill"></i>
-                                                    <i class="ecicon eci-star fill"></i>
-                                                    <i class="ecicon eci-star fill"></i>
-                                                    <i class="ecicon eci-star fill"></i>
-                                                    <i class="ecicon eci-star"></i>
+                                                <div class="ec-pro-content">
+                                                    <h5 class="ec-pro-title"><a asp-page="./ProductDetail" asp-route-id="@product.Slug"> @product.Name </a></h5>
+                                                    <div class="ec-pro-rating">
+                                                        <i class="ecicon eci-star fill"></i>
+                                                        <i class="ecicon eci-star fill"></i>
+                                                        <i class="ecicon eci-star fill"></i>
+                                                        <i class="ecicon eci-star fill"></i>
+                                                        <i class="ecicon eci-star"></i>
+                                                    </div>
+                                                    @if (product.HasDiscount)
+                                                    {
+                                                        <span class="ec-price">
+                                                            <span class="old-price">@product.Price تومان</span>
+                                                            <span class="new-price">@product.PriceWithDiscount تومان</span>
+                                                        </span>
+                                                    }
+                                                    else
+                                                    {
+                                                        <span class="ec-price">
+                                                            <span class="new-price">@product.Price تومان</span>
+                                                        </span>
+                                                    }
+
                                                 </div>
-                                                @if (product.HasDiscount)
-                                                {
-                                                    <span class="ec-price">
-                                                        <span class="old-price">@product.Price تومان</span>
-                                                        <span class="new-price">@product.PriceWithDiscount تومان</span>
-                                                    </span>
-                                                }
-                                                <span class="ec-price">
-                                                    <span class="new-price">@product.Price تومان</span>
-                                                </span>
                                             </div>
                                         </div>
-                                    </div>
+                                    }
 
-                                    <div class="col-sm-12 shop-all-btn"><a href="shop-left-sidebar-col-3.html">تمامی کالکشن‌های فروشگاه</a></div>
-                                </div>
-                            }
+                                }
+                            </div>
                         </div>
                         <!-- ec 1st Product tab end -->
                     }

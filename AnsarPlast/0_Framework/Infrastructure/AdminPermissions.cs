@@ -115,5 +115,18 @@ namespace _0_Framework.Infrastructure
         public const int SearchDiscountCode = 151;
         public const int DefineDiscountCode = 152;
         public const int EditDiscountCode = 153;
+
+        //OfferBanner
+        public const int ListOfferBanner = 160;
+        public const int SearchOfferBanner = 161;
+        public const int CreateOfferBanner = 162;
+        public const int EditOfferBanner = 163;
+        public const int DeleteOfferBanner = 164;
+        
+        //ProductFeatures
+        public const int ListProductFeatures = 170;
+        public const int CreateProductFeatures = 172;
+        public const int EditProductFeatures = 173;
+        public const int DeleteProductFeatures = 174;
     }
 }
